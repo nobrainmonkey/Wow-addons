@@ -1,0 +1,14 @@
+
+MythicDungeonToolsDB = {
+["profileKeys"] = {
+["Maweigavel - Illidan"] = "Maweigavel - Illidan",
+["Maweireborn - Illidan"] = "Maweireborn - Illidan",
+["Maweihunt - Illidan"] = "Maweihunt - Illidan",
+["Maweidoodoo - Illidan"] = "Maweidoodoo - Illidan",
+},
+["global"] = {
+["minimap"] = {
+["showInCompartment"] = true,
+},
+},
+}

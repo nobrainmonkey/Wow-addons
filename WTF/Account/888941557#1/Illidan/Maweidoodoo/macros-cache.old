@@ -1,0 +1,10 @@
+VER 3 0100000000000002 "亏狂龙" "134400"
+#showtooltip
+/cast 狂龙之怒
+/use 虚体精华吞噬者
+/use 阿拉兹的仪式熔炉
+END
+VER 3 0100000000000001 "火焰风暴" "134400"
+#showtooltip
+/cast [@cursor] 火焰风暴
+END

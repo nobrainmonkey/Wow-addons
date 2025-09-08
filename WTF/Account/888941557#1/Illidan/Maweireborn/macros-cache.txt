@@ -1,0 +1,17 @@
+VER 3 0100000000000002 "活血" "134400"
+#showtooltip
+/cast [@mouseover, help] 活血术; [harm] 猛虎掌; 活血术
+END
+VER 3 0100000000000001 "白虎" "134400"
+#showtooltip 白虎下凡
+/use 灰鳞的优雅
+/cast 白虎下凡
+/use 飞逝淬火药水
+/use 淬火药水
+/施放 先祖召唤(种族特长)
+END
+VER 3 0100000000000003 "白虎2" "134400"
+#showtooltip 白虎下凡
+/cast 白虎下凡
+/施放 先祖召唤(种族特长)
+END

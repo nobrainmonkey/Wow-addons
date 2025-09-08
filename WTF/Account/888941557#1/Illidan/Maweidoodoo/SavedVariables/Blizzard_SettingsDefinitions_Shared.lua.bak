@@ -1,0 +1,4 @@
+
+NewSettingsSeen = {
+["GameplaySoundEffects"] = true,
+}

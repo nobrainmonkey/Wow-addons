@@ -1,0 +1,50 @@
+## Interface: 110107, 110200
+## Version: 130
+## Title: Aura Updater
+## Author: Naemesis
+## IconTexture: Interface\AddOns\AuraUpdater\Media\Textures\logo_secondary.blp
+## SavedVariables: LiquidUpdaterSaved
+## Dependencies: WeakAuras
+## LoadSavedVariablesFirst: 1
+## OptionalDeps: ViragDevTool, DBM-Core, Liquid, LiquidUpdater
+## Category: Liquid
+
+embeds.xml
+LiquidUI/LiquidUI.xml
+
+Interface/UpdateList/UpdateList.lua
+Interface/UpdateList/UpdatEelement.lua
+
+Interface/CheckGrid/CheckGrid.lua
+Interface/CheckGrid/CheckGridTitle.lua
+Interface/CheckGrid/CheckGridHeader.lua
+Interface/CheckGrid/CheckGridCell.lua
+Interface/CheckGrid/CheckGridRow.lua
+
+Interface/AuraCheckGrid.lua
+Interface/OtherCheckGrid.lua
+Interface/Notifications.lua
+
+GlobalSettings.lua
+BigWigsDisabler.lua
+AnchorSettings.lua
+WeakAuras.lua
+WeakAurasImporter.lua
+Utility.lua
+
+Nicknames/Nicknames.lua
+Nicknames/Cell.lua
+Nicknames/CustomNames.lua
+Nicknames/ElvUI.lua
+Nicknames/Grid2.lua
+Nicknames/MRT.lua
+Nicknames/VuhDo.lua
+Nicknames/WeakAuras.lua
+
+Interface/Interface.lua
+Interface/Settings.lua
+
+Transmission.lua
+Versions.lua
+AuraUpdater.lua
+Core.lua

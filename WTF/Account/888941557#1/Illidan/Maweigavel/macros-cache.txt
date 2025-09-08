@@ -1,0 +1,57 @@
+VER 3 0100000000000007 "burst" "134400"
+#showtooltip 鲁莽
+/use 最上品
+/use 隐修院印章
+/cast 鲁莽
+END
+VER 3 0100000000000008 "burst" "INV_Misc_QuestionMark"
+#showtooltip 鲁莽
+/cast 鲁莽
+/use 纸牌屋
+/use [combat] 17
+END
+VER 3 0100000000000005 "charge" "134400"
+#showtooltip 冲锋
+/cast [target=mouseover,help,exists,nodead]援护;援护
+/cast [target=target,harm,exists,nodead]冲锋;冲锋
+END
+VER 3 0100000000000002 "leap" "134400"
+#showtooltip 
+/cast [@cursor] 英勇飞跃
+END
+VER 3 010000000000000C "Rav2" "134400"
+#showtooltip 
+/cast [@player] 破坏者
+END
+VER 3 0100000000000004 "Ravager" "134400"
+#showtooltip 
+/cast [@cursor] 破坏者
+END
+VER 3 0100000000000003 "sphere" "134400"
+#showtooltip 
+/cast [@cursor] 勇士之矛
+END
+VER 3 0100000000000001 "stance" "134400"
+#showtooltip
+/castsequence !防御姿态, !战斗姿态
+END
+VER 3 0100000000000006 "stance2" "134400"
+#showtooltip
+/castsequence !防御姿态, !狂暴姿态
+END
+VER 3 010000000000000B "test" "134400"
+/use [combat] 17
+END
+VER 3 010000000000000A "天神" "134400"
+#showtooltip 天神下凡
+/cast 天神下凡
+/use 纸牌屋
+/use [combat]17
+/use 飞逝淬火药水
+/use 淬火药水
+END
+VER 3 0100000000000009 "爆发" "134400"
+#showtooltip 巨人打击
+/use [combat]16
+/cast 巨人打击
+END

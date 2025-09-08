@@ -1,0 +1,99 @@
+VER 3 010000000000000D "burst" "134400"
+#showtooltip 
+/cast 血溅十方
+/use 飞逝淬火药水
+/use 淬火药水
+/use 隐修院印章
+/use 纸牌屋
+/use 晶化强化符文
+END
+VER 3 0100000000000008 "burst" "134400"
+#showtooltip 
+/cast 荒野的召唤
+/use 飞逝淬火药水
+/use 淬火药水
+/use 隐修院印章
+/use 纸牌屋
+/use 晶化强化符文
+END
+VER 3 010000000000000C "cheat" "134400"
+#showtooltip
+/cast 假死
+/petpassive
+END
+VER 3 010000000000000A "MD" "134400"
+#showtooltip [known:Interlope] Interlope; #showtooltip [noknown:Interlope] 误导
+/click SmartMisdirect LeftButton 1
+/click SmartMisdirect LeftButton 0
+END
+VER 3 0100000000000001 "乱射" "134400"
+#showtooltip 乱射
+/施放 齐射
+/cast [@cursor] 乱射
+END
+VER 3 0100000000000005 "倒刺" "134400"
+#showtooltip 倒刺射击
+/petattack
+/startattack
+/cast [@mouseover,harm,nodead][]倒刺射击
+/cast [@pettarget]爪击
+/cast [@pettarget]撕咬
+/cast [@pettarget]拍击
+END
+VER 3 010000000000000E "凝神" "134400"
+#showtooltip 宁神射击
+/cast [@focus,harm,nodead][] 宁神射击
+END
+VER 3 0100000000000003 "命令" "134400"
+#showtooltip 杀戮命令
+/petattack
+/startattack
+/cast [@mouseover,harm,nodead][]杀戮命令
+/cast [@pettarget]爪击
+/cast [@pettarget]撕咬
+/cast [@pettarget]拍击
+END
+VER 3 0100000000000004 "多重" "134400"
+#showtooltip 多重射击
+/petattack
+/cast 多重射击
+/cast [@pettarget]爪击
+/cast [@pettarget]撕咬
+/cast [@pettarget]拍击
+END
+VER 3 0100000000000007 "夺命射击" "134400"
+#showtooltip 夺命射击
+/petattack
+/cast [@mouseover,harm,nodead][]夺命射击
+/cast [@pettarget]爪击
+/cast [@pettarget]撕咬
+/cast [@pettarget]拍击
+END
+VER 3 0100000000000002 "焦点打断" "134400"
+#showtooltip 反制射击
+/cast [@focus,harm,nodead][] 反制射击
+END
+VER 3 010000000000000B "爆发" "134400"
+#showtooltip 协同进攻
+/cast 协同进攻
+/use 飞逝淬火药水
+/use 淬火药水
+/use 隐修院印章
+/use 纸牌屋
+END
+VER 3 0100000000000009 "百发百中" "134400"
+#showtooltip 百发百中
+/cast 百发百中
+/use 飞逝淬火药水
+/use 淬火药水
+/use 隐修院印章
+/use 纸牌屋
+END
+VER 3 0100000000000006 "眼镜蛇" "134400"
+#showtooltip 眼镜蛇射击
+/petattack
+/cast 眼镜蛇射击
+/cast [@pettarget]爪击
+/cast [@pettarget]撕咬
+/cast [@pettarget]拍击
+END

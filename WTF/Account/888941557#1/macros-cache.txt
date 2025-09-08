@@ -1,0 +1,39 @@
+VER 3 000000000000000B "2" "134400"
+/target 昏昏欲睡的鱼
+/sleep
+END
+VER 3 000000000000000A "dance" "134400"
+/tar 跳舞球
+/dance
+END
+VER 3 0000000000000004 "diamond" "134400"
+/wm [@cursor]3
+END
+VER 3 0000000000000007 "disenchant" "134400"
+/cast 分解
+/use 审判官的火炬
+END
+VER 3 0000000000000001 "Liquid" "134400"
+/run WeakAuras.ScanEvents("LIQUID_PRIVATE_AURA_MACRO", true)
+/run WeakAuras.ScanEvents("NS_EXTERNAL", true)
+/ping [@player] 协助
+END
+VER 3 0000000000000009 "Liquid" "134400"
+/run WeakAuras.ScanEvents("LIQUID_PRIVATE_AURA_MACRO")
+/ping [@player] 协助
+END
+VER 3 0000000000000006 "love" "134400"
+/love
+END
+VER 3 0000000000000008 "queue" "134400"
+/script StaticPopup_ClickButton(StaticPopup1,1)
+END
+VER 3 0000000000000002 "Square" "134400"
+/wm [@cursor]1
+END
+VER 3 0000000000000003 "Triang" "134400"
+/wm [@cursor]2
+END
+VER 3 0000000000000005 "wm4" "134400"
+/wm [@cursor]4
+END

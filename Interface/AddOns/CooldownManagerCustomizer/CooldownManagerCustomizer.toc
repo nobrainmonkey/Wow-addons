@@ -1,0 +1,19 @@
+## Interface: 110105
+## Title: CooldownManagerCustomizer
+## Notes: Allows hiding spells from the built in Cooldown Manager
+## Author: Crankymango and Mangozilla - Illidan
+## Version: 1.1
+## Checkboxes for hide/show spells, SpellData.lua added, rearange spells
+## SavedVariables: CooldownViewerFilterDB
+
+# Load Libraries
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+
+#addon core
+Core.lua
+configui.lua
