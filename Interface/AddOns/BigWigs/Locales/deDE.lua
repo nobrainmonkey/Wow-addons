@@ -237,6 +237,9 @@ L.imported_nameplate_settings = "Namensplaketten Einstellungen"
 L.imported_mythicplus_settings = "Mythisch+ Einstellungen"
 L.mythicplus_settings_import_desc = "Alle Mythisch+ Einstellungen importieren."
 L.mythicplus_settings_export_desc = "Alle Mythisch+ Einstellungen exportieren."
+--L.imported_battleres_settings = "Battle Res Settings"
+--L.battleres_settings_import_desc = "Import all Battle Res settings."
+--L.battleres_settings_export_desc = "Export all Battle Res settings."
 
 -- Statistics
 L.statistics = "Statistiken"
@@ -283,6 +286,26 @@ L.toolsDesc = "BigWigs bietet verschiedene Werkzeuge oder Features der \"Lebensq
 
 L.autoRoleTitle = "Automatische Rollenwahl"
 L.autoRoleExplainer = "Jedes mal, wenn einer Gruppe beigetreten wird, oder die Talentspezialisierung in einer Gruppe geändert wird, passt BigWigs automatisch die Gruppenrolle (Tank, Heiler, Schaden) entsprechend an.\n\n"
+
+-----------------------------------------------------------------------
+-- BattleRes.lua
+--
+
+L.battleResTitle = "Battle Res"
+L.battleResDesc = "Zeigt ein Symbol an, welches die Anzahl der verfügbaren Battle Res Aufladungen sowie die Zeit bis zur nächsten Aufladung anzeigt."
+--L.battleResDesc2 = "\nYour |cFF33FF99Battle Resurrection History|r can be viewed in the tooltip when you mouse over the icon.\n\n"
+L.battleResHistory = "Battle Res Verlauf:"
+L.battleResResetAll = "Alle Battle Res Einstellungen auf ihre Standardwerte zurücksetzen."
+L.battleResDurationText = "Dauer Text"
+L.battleResChargesText = "Aufladungen Text"
+L.battleResNoCharges = "0 Aufladungen verfügbar"
+L.battleResHasCharges = "1 oder mehr Aufladungen verfügbar"
+L.battleResPlaySound = "Einen Sound wiedergeben wenn eine neue Aufladung verfügbar ist"
+L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t Symbol Textur (Zauber ID)"
+L.iconTextureSpellIDError = "Es muss eine gültige Zauber ID zur Nutzung der Symbol Textur genutzt werden."
+--L.battleResModeIcon = "Mode: Icon"
+--L.battleResModeText = "Mode: Text Only"
+--L.battleResModeTextTooltip = "Showing a temporary background to help you move the Battle Res feature and to see where the mouseover area is."
 
 -----------------------------------------------------------------------
 -- Keystones.lua
@@ -392,6 +415,8 @@ L.instanceKeysShowAllDesc = "Durch Aktivierung dieser Option werden alle Spieler
 L.instanceKeysOtherDungeonColor = "Farbe anderer Dungeons"
 L.instanceKeysOtherDungeonColorDesc = "Schriftfarbe für Spieler wählen, deren Schlüsselstein nicht zum aktuellen Dungeon passt."
 L.instanceKeysEndOfRunDesc = "Standardmäßig wird die Liste nur beim Betreten eines mythischen Dungeons angezeigt. Durch Aktivierung dieser Option wird die Liste auch nach Abschluss von Mythisch+ Dungeons angezeigt."
+--L.instanceKeysHideTitle = "Hide title"
+--L.instanceKeysHideTitleDesc = "Hide the \"Who has a key?\" title."
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -412,6 +437,10 @@ L.comma = ", "
 L.reset = "Zurücksetzen"
 L.resetDesc = "Die obigen Einstellungen auf Standardwerte zurücksetzen."
 L.resetAll = "Alle zurücksetzen"
+L.startTest = "Test starten"
+L.stopTest = "Test beenden"
+L.always = "Immer"
+L.never = "Nie"
 
 L.positionX = "X-Position"
 L.positionY = "Y-Position"
@@ -426,6 +455,7 @@ L.disabled = "Deaktivieren"
 L.disableDesc = "Du bist dabei, das Feature '%s' zu deaktivieren, was |cffff4411nicht empfohlen|r wird.\n\nBist Du sicher, dass Du das tun willst?"
 L.keybinding = "Tastenbelegung"
 L.dragToResize = "Zum Anpassen ziehen"
+L.cannotMoveInCombat = "Verschieben im Kampf nicht möglich."
 
 -- Anchor Points
 L.UP = "Hoch"

@@ -347,10 +347,11 @@ function mod:SilencingTempest()
 	self:StopBar(CL.count:format(CL.pools, silencingTempestCount))
 	self:Message(1228188, "cyan", CL.count:format(CL.pools, silencingTempestCount))
 	silencingTempestCount = silencingTempestCount + 1
-	local cd = getTimers(1228188, silencingTempestCount)
-	if self:GetStage() == 2 and not self:Mythic() then -- XXX Yet to see
-		local stageTwoHeroicTimers = {12, 21, 23, 21}
-		cd = self:Easy() and 44 or stageTwoHeroicTimers[silencingTempestCount]
+	local cd
+	if self:GetStage() == 2 then
+		cd = not self:Heroic() and 44 or silencingTempestCount % 2 == 0 and 21.0 or 23.0
+	else
+		cd = getTimers(1228188, silencingTempestCount)
 	end
 	self:Bar(1228188, cd, CL.count:format(CL.pools, silencingTempestCount))
 end
@@ -567,7 +568,7 @@ function mod:Stage2Start()
 
 	self:Bar(1228502, 4.0, CL.count:format(self:SpellName(1228502), overwhelmingPowerCount)) -- Overwhelming Power
 	self:Bar(1243901, 8.0, CL.count:format(CL.adds, voidHarvestCount)) -- Void Harvest
-	self:Bar(1228188, self:Mythic() and 30 or 12.0, CL.count:format(CL.pools, silencingTempestCount)) -- Silencing Tempest
+	self:Bar(1228188, self:Mythic() and 36.0 or self:Easy() and 32.9 or 12.0, CL.count:format(CL.pools, silencingTempestCount)) -- Silencing Tempest
 	if self:Mythic() then
 		self:Bar(1232221, 12.0, CL.count:format(CL.knockback, deathThroesCount)) -- Death Throes
 	end

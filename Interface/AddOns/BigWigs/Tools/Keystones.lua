@@ -1,31 +1,32 @@
-local L, BigWigsLoader, BigWigsAPI, db
-
---------------------------------------------------------------------------------
--- Saved Settings
---
-
-local ProfileUtils = {}
+local L, BigWigsLoader, BigWigsAPI
 do
 	local _, tbl = ...
 	BigWigsAPI = tbl.API
 	L = BigWigsAPI:GetLocale("BigWigs")
 	BigWigsLoader = tbl.loaderPublic
+end
 
+--------------------------------------------------------------------------------
+-- Saved Settings
+--
+
+local ProfileUtils, db = {}
+do
 	local defaultVoice = "English: Amy"
+	local fontName = "Noto Sans Regular"
 	do
 		local locale = GetLocale()
 		if locale ~= "enUS" then
 			defaultVoice = ("%s: Default (Female)"):format(locale)
+			if locale == "koKR" or locale == "zhCN" or locale == "zhTW" then
+				fontName = LibStub("LibSharedMedia-3.0"):GetDefault("font")
+			end
 		end
 	end
 	local validFramePoints = {
 		["TOPLEFT"] = true, ["TOPRIGHT"] = true, ["BOTTOMLEFT"] = true, ["BOTTOMRIGHT"] = true,
 		["TOP"] = true, ["BOTTOM"] = true, ["LEFT"] = true, ["RIGHT"] = true, ["CENTER"] = true,
 	}
-
-	local loc = GetLocale()
-	local isWest = loc ~= "koKR" and loc ~= "zhCN" and loc ~= "zhTW" and true
-	local fontName = isWest and "Noto Sans Regular" or LibStub("LibSharedMedia-3.0"):GetDefault("font")
 
 	local defaults = {
 		autoSlotKeystone = true,
@@ -50,6 +51,7 @@ do
 		instanceKeysOtherDungeonColor = {1, 1, 1, 0.5},
 		instanceKeysShowAllPlayers = false,
 		instanceKeysShowDungeonEnd = false,
+		instanceKeysHideTitle = false,
 	}
 	db = BigWigsLoader.db:RegisterNamespace("MythicPlus", {profile = defaults})
 
@@ -330,6 +332,10 @@ local LibKeystone = LibStub("LibKeystone")
 local LibSpec = LibStub("LibSpecialization")
 local LibSharedMedia = LibStub("LibSharedMedia-3.0")
 
+local LibKeystoneRequest = LibKeystone.Request
+local LibKeystoneRegister = LibKeystone.Register
+local LibKeystoneUnregister = LibKeystone.Unregister
+
 local guildList, partyList = {}, {}
 local WIDTH_NAME, WIDTH_LEVEL, WIDTH_MAP, WIDTH_RATING = 150, 24, 74, 42
 
@@ -567,7 +573,7 @@ partyRefreshButton:SetPushedTexture("Interface\\Buttons\\UI-RefreshButton-Down")
 partyRefreshButton:SetHighlightTexture("Interface\\Buttons\\UI-RefreshButton")
 partyRefreshButton:SetScript("OnClick", function()
 	partyList = {}
-	LibKeystone.Request("PARTY")
+	LibKeystoneRequest("PARTY")
 end)
 partyRefreshButton:SetScript("OnEnter", function(self)
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
@@ -586,7 +592,7 @@ guildRefreshButton:SetHighlightTexture("Interface\\Buttons\\UI-RefreshButton")
 guildRefreshButton:SetScript("OnClick", function()
 	guildList = {}
 	LibSpec.RequestGuildSpecialization()
-	C_Timer.After(0.1, function() LibKeystone.Request("GUILD") end)
+	C_Timer.After(0.1, function() LibKeystoneRequest("GUILD") end)
 end)
 guildRefreshButton:SetScript("OnEnter", function(self)
 	GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
@@ -867,8 +873,8 @@ do
 		guildList = {}
 		RegisterLibKeystone()
 		LibSpec.RequestGuildSpecialization()
-		LibKeystone.Request("PARTY")
-		C_Timer.After(0.2, function() LibKeystone.Request("GUILD") end)
+		LibKeystoneRequest("PARTY")
+		C_Timer.After(0.2, function() LibKeystoneRequest("GUILD") end)
 	end)
 
 	-- Tab 2 (Teleports)
@@ -903,7 +909,7 @@ do
 					if soundName ~= "None" then
 						local sound = LibSharedMedia:Fetch("sound", soundName, true)
 						if sound then
-							BigWigsLoader.PlaySoundFile(sound)
+							BigWigsLoader.PlaySoundFile(sound, "Master")
 						end
 					end
 				end)
@@ -912,7 +918,7 @@ do
 				if soundName ~= "None" then
 					local sound = LibSharedMedia:Fetch("sound", soundName, true)
 					if sound then
-						BigWigsLoader.PlaySoundFile(sound)
+						BigWigsLoader.PlaySoundFile(sound, "Master")
 					end
 				end
 			else -- CHALLENGE_MODE_RESET
@@ -1026,10 +1032,26 @@ do
 	tab3:RegisterEvent("CHALLENGE_MODE_COMPLETED")
 	-- Tab 3 Event Handler (Used for automatically showing the window when the dungeon ends)
 	do
-		local function Open() mainPanel:Show() tab1:Click() end
-		tab3:SetScript("OnEvent", function()
-			if db.profile.showViewerDungeonEnd and not BigWigsLoader.isTestBuild then
-				BigWigsLoader.CTimerAfter(5, Open)
+		local function Open()
+			if InCombatLockdown() then
+				tab3:RegisterEvent("PLAYER_REGEN_ENABLED")
+				return
+			end
+
+			local _, _, diffID = BigWigsLoader.GetInstanceInfo()
+			if diffID == 8 then -- Mythic+
+				mainPanel:Show()
+				tab1:Click()
+			end
+		end
+		tab3:SetScript("OnEvent", function(self, event)
+			if event == "PLAYER_REGEN_ENABLED" then
+				self:UnregisterEvent(event)
+				Open()
+			else -- CHALLENGE_MODE_COMPLETED
+				if db.profile.showViewerDungeonEnd and not BigWigsLoader.isTestBuild then
+					BigWigsLoader.CTimerAfter(5, Open)
+				end
 			end
 		end)
 	end
@@ -1499,10 +1521,10 @@ do
 	end
 	local LibKeystoneTable = {}
 	function RegisterLibKeystone()
-		LibKeystone.Register(LibKeystoneTable, LibKeystoneFunction)
+		LibKeystoneRegister(LibKeystoneTable, LibKeystoneFunction)
 	end
 	function UnregisterLibKeystone()
-		LibKeystone.Unregister(LibKeystoneTable)
+		LibKeystoneUnregister(LibKeystoneTable)
 	end
 end
 
@@ -1562,6 +1584,11 @@ do
 	header:SetFont(LibSharedMedia:Fetch("font", db.profile.instanceKeysFontName), db.profile.instanceKeysFontSize, flags)
 	header:SetFormattedText("|TInterface\\AddOns\\BigWigs\\Media\\Icons\\minimap_raid:0:0|t%s", L.instanceKeysTitle)
 	header:SetTextColor(db.profile.instanceKeysColor[1], db.profile.instanceKeysColor[2], db.profile.instanceKeysColor[3], db.profile.instanceKeysColor[4])
+	if db.profile.instanceKeysHideTitle then
+		header:Hide()
+	else
+		header:Show()
+	end
 	instanceKeysWidgets.header = header
 
 	for i = 1, 5 do
@@ -1619,7 +1646,8 @@ do
 					if inCurrentDungeon or db.profile.instanceKeysShowAllPlayers then
 						main:RegisterEvent("PLAYER_LEAVING_WORLD") -- Hide when changing zone
 						main:RegisterEvent("CHALLENGE_MODE_START") -- Hide when starting Mythic+
-						main:RegisterEvent("PLAYER_REGEN_DISABLED") -- Hide when you enter combat
+						main:RegisterEvent("ENCOUNTER_START") -- Hide when you enter combat with a boss
+						main:RegisterEvent("PLAYER_REGEN_DISABLED") -- Temporarily hide when you enter combat
 						main:Show()
 						sortedPlayerList[#sortedPlayerList+1] = {name = pName, decoratedName = pData[3], level = pData[1], inCurrentDungeon = inCurrentDungeon}
 					end
@@ -1676,8 +1704,8 @@ do
 		for i = 1, 5 do
 			instanceKeysWidgets.playerListText[i]:SetFont(LibSharedMedia:Fetch("font", db.profile.instanceKeysFontName), db.profile.instanceKeysFontSize, fontFlags)
 		end
-		LibKeystone.Register(whosKeyTable, ReceivePartyData)
-		LibKeystone.Request("PARTY")
+		LibKeystoneRegister(whosKeyTable, ReceivePartyData)
+		LibKeystoneRequest("PARTY")
 		main:RegisterEvent("UNIT_CONNECTION")
 	end
 	local function DelayStartOfDungeon() -- Difficulty info isn't accurate until 1 frame after PEW
@@ -1693,6 +1721,7 @@ do
 			RequestPartyData(instanceID)
 		end
 	end
+	local combatHideCount, combatDelayTimer = 1, nil
 	main:SetScript("OnEvent", function(self, event, unit, isConnected)
 		if instanceKeysWidgets.testing and event ~= "UNIT_CONNECTION" then
 			instanceKeysWidgets.testing = false
@@ -1710,17 +1739,38 @@ do
 			end
 		elseif event == "UNIT_CONNECTION" then -- Someone new joined the group, or they just logged on after being offline (maybe they were offline when you joined the group)
 			if isConnected then
-				BigWigsLoader.CTimerAfter(1, function() LibKeystone.Request("PARTY") end)
+				BigWigsLoader.CTimerAfter(1, function() LibKeystoneRequest("PARTY") end)
 			end
-		else
-			LibKeystone.Unregister(whosKeyTable)
+		elseif event == "PLAYER_REGEN_DISABLED" and combatHideCount < 3 then -- You can enter combat twice and it will re-show, kill it after that
+			combatHideCount = combatHideCount + 1
 			self:Hide()
+			self:RegisterEvent("PLAYER_REGEN_ENABLED")
+			if combatDelayTimer then
+				combatDelayTimer:Cancel()
+				combatDelayTimer = nil
+			end
+		elseif event == "PLAYER_REGEN_ENABLED" then
+			self:UnregisterEvent(event)
+			if combatDelayTimer then combatDelayTimer:Cancel() end
+			combatDelayTimer = BigWigsLoader.CTimerNewTimer(10, function()
+				combatDelayTimer = nil
+				self:Show()
+			end)
+		else
+			combatHideCount = 1
+			LibKeystoneUnregister(whosKeyTable)
+			self:Hide()
+			if combatDelayTimer then
+				combatDelayTimer:Cancel()
+				combatDelayTimer = nil
+			end
 			instanceKeysWidgets.nameList = {}
 			instanceKeysWidgets.namesToShow = nil
 			instanceKeysWidgets.otherDungeons = nil
 			self:UnregisterEvent("PLAYER_LEAVING_WORLD")
 			self:UnregisterEvent("CHALLENGE_MODE_START")
 			self:UnregisterEvent("PLAYER_REGEN_DISABLED")
+			self:UnregisterEvent("PLAYER_REGEN_ENABLED")
 			self:UnregisterEvent("UNIT_CONNECTION")
 		end
 	end)
@@ -1782,6 +1832,11 @@ do
 				instanceKeysWidgets.playerListText[i]:SetTextColor(db.profile.instanceKeysOtherDungeonColor[1], db.profile.instanceKeysOtherDungeonColor[2], db.profile.instanceKeysOtherDungeonColor[3], db.profile.instanceKeysOtherDungeonColor[4])
 			end
 		end
+		if db.profile.instanceKeysHideTitle then
+			instanceKeysWidgets.header:Hide()
+		else
+			instanceKeysWidgets.header:Show()
+		end
 
 		instanceKeysWidgets.main:ClearAllPoints()
 		do
@@ -1842,14 +1897,14 @@ do
 		end
 	end
 
-	BigWigsLoader:RegisterMessage("BigWigs_ProfileUpdate", function()
+	BigWigsLoader.RegisterMessage({}, "BigWigs_ProfileUpdate", function()
 		ProfileUtils.ValidateMainSettings()
 		ProfileUtils.ValidateMediaSettings()
 		UpdateWidgets()
 	end)
 
-	BigWigsAPI.RegisterSlashCommand("/key", ShowViewer)
-	BigWigsAPI.RegisterSlashCommand("/bwkey", ShowViewer)
+	BigWigsAPI.RegisterSlashCommand("/key", ShowViewer, true)
+	BigWigsAPI.RegisterSlashCommand("/bwkey", ShowViewer, true)
 
 	viewerKeybindFrame:SetScript("OnClick", ShowViewer)
 	if db.profile.viewerKeybind ~= "" then
@@ -2054,7 +2109,7 @@ do
 							local key = info[#info]
 							db.profile[key] = value
 							instanceKeysWidgets.nameList = {}
-							LibKeystone.Request("PARTY")
+							LibKeystoneRequest("PARTY")
 						end,
 						confirm = function(_, value)
 							if value then
@@ -2076,14 +2131,21 @@ do
 						type = "toggle",
 						name = L.keystoneAutoShowEndOfRun,
 						desc = L.instanceKeysEndOfRunDesc,
-						set = UpdateSettings,
 						order = 13,
+						width = "full",
+					},
+					instanceKeysHideTitle = {
+						type = "toggle",
+						name = L.instanceKeysHideTitle,
+						desc = L.instanceKeysHideTitleDesc,
+						set = UpdateSettingsAndWidgets,
+						order = 14,
 						width = "full",
 					},
 					resetHeader = {
 						type = "header",
 						name = "",
-						order = 14,
+						order = 15,
 					},
 					reset = {
 						type = "execute",
@@ -2094,10 +2156,10 @@ do
 							UpdateWidgets()
 							if not instanceKeysWidgets.testing then
 								instanceKeysWidgets.nameList = {}
-								LibKeystone.Request("PARTY")
+								LibKeystoneRequest("PARTY")
 							end
 						end,
-						order = 15,
+						order = 16,
 					},
 				},
 			},

@@ -2314,3 +2314,7 @@ Change Log:
 * Added TWW spells for Ara-Kara, City of Echoes
 * Added TWW spells for TWW Delves 
 * Added TWW spells for Manaforge Omega
+
+5.19
+* Fixed localization issues when strings were not localized
+

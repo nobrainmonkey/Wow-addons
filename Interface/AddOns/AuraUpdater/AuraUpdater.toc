@@ -1,5 +1,5 @@
 ## Interface: 110107, 110200
-## Version: 130
+## Version: 133
 ## Title: Aura Updater
 ## Author: Naemesis
 ## IconTexture: Interface\AddOns\AuraUpdater\Media\Textures\logo_secondary.blp

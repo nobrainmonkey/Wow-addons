@@ -237,6 +237,9 @@ L.imported_nameplate_settings = "Configurações de Placas Identificadoras"
 L.imported_mythicplus_settings = "Configurações de Mítica+"
 L.mythicplus_settings_import_desc = "Importar todas as configurações de Míticas+."
 L.mythicplus_settings_export_desc = "Exportar todas as configurações de Míticas+."
+--L.imported_battleres_settings = "Battle Res Settings"
+--L.battleres_settings_import_desc = "Import all Battle Res settings."
+--L.battleres_settings_export_desc = "Export all Battle Res settings."
 
 -- Statistics
 L.statistics = "Estatísticas"
@@ -283,6 +286,26 @@ L.toolsDesc = "O BigWigs oferece diversas ferramentas ou recursos de \"qualidade
 
 L.autoRoleTitle = "Função automática"
 L.autoRoleExplainer = "Sempre que você se junta a um grupo ou muda sua especialização de talento enquanto está em um grupo, o BigWigs ajustará automaticamente sua função no grupo (Tanque, Curador, Dano) de acordo.\n\n"
+
+-----------------------------------------------------------------------
+-- BattleRes.lua
+--
+
+--L.battleResTitle = "Battle Res"
+--L.battleResDesc = "An icon that shows how many battle resurrection charges are available and the time until another charge is gained."
+--L.battleResDesc2 = "\nYour |cFF33FF99Battle Resurrection History|r can be viewed in the tooltip when you mouse over the icon.\n\n"
+--L.battleResHistory = "Battle Res History:"
+--L.battleResResetAll = "Reset all the Battle Resurrection settings to their default values."
+--L.battleResDurationText = "Duration Text"
+--L.battleResChargesText = "Charges Text"
+--L.battleResNoCharges = "0 charges available"
+--L.battleResHasCharges = "1 or more charges available"
+--L.battleResPlaySound = "Play a sound when a new charge is gained"
+--L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t Icon Texture (Spell ID)"
+--L.iconTextureSpellIDError = "You must type a valid spell ID to use as the icon texture."
+--L.battleResModeIcon = "Mode: Icon"
+--L.battleResModeText = "Mode: Text Only"
+--L.battleResModeTextTooltip = "Showing a temporary background to help you move the Battle Res feature and to see where the mouseover area is."
 
 -----------------------------------------------------------------------
 -- Keystones.lua
@@ -392,6 +415,8 @@ L.instanceKeysShowAllDesc = "Ativar esta opção exibirá todos os jogadores na 
 L.instanceKeysOtherDungeonColor = "Cor de outras masmorras"
 L.instanceKeysOtherDungeonColorDesc = "Escolha a cor da fonte para jogadores que possuem pedras-chave que não pertencem à masmorra em que você está."
 L.instanceKeysEndOfRunDesc = "Por padrão, a lista só aparecerá quando você entrar em uma masmorra mítica. Ativar esta opção também mostrará a lista quando a Mítica+ terminar."
+--L.instanceKeysHideTitle = "Hide title"
+--L.instanceKeysHideTitleDesc = "Hide the \"Who has a key?\" title."
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -412,6 +437,10 @@ L.comma = ", "
 L.reset = "Reiniciar"
 L.resetDesc = "Redefinir as configurações acima para seus valores padrões."
 L.resetAll = "Reiniciar tudo"
+--L.startTest = "Start Test"
+--L.stopTest = "Stop Test"
+--L.always = "Always"
+--L.never = "Never"
 
 L.positionX = "Posição X"
 L.positionY = "Posição Y"
@@ -426,6 +455,7 @@ L.disabled = "Desativado"
 L.disableDesc = "Você está prestes a desabilitar a função '%s' e isso |cffff4411não é recomendado|r.\n\nVocê tem certeza disso?"
 L.keybinding = "Tecla de Atalho"
 L.dragToResize = "Arraste para redimensionar"
+--L.cannotMoveInCombat = "You cannot move this whilst you're in combat."
 
 -- Anchor Points
 L.UP = "Cima"

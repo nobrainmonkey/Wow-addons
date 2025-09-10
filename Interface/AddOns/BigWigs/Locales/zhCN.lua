@@ -235,8 +235,11 @@ L.imported_countdown_settings = "倒数设置"
 L.imported_countdown_color = "倒数颜色"
 L.imported_nameplate_settings = "姓名板设置"
 L.imported_mythicplus_settings = "史诗钥石设置"
-L.mythicplus_settings_import_desc = "导入全部史诗钥石设置。"
-L.mythicplus_settings_export_desc = "导出全部史诗钥石设置。"
+L.mythicplus_settings_import_desc = "导入所有史诗钥石设置。"
+L.mythicplus_settings_export_desc = "导出所有史诗钥石设置。"
+L.imported_battleres_settings = "战复设置"
+L.battleres_settings_import_desc = "导入所有战复设置。"
+L.battleres_settings_export_desc = "导入所有战复设置。"
 
 -- Statistics
 L.statistics = "统计"
@@ -283,6 +286,26 @@ L.toolsDesc = "BigWigs 提供多种工具和\"便利功能\"，让你可以轻�
 
 L.autoRoleTitle = "自动分配职责"
 L.autoRoleExplainer = "当你加入一个队伍，或者在队伍中切换你的天赋专精时，BigWigs 将自动调整你在队伍中的职责（坦克、治疗者、伤害输出者）。\n\n"
+
+-----------------------------------------------------------------------
+-- BattleRes.lua
+--
+
+L.battleResTitle = "战复"
+L.battleResDesc = "新建一个图标，显示可用战复次数及下次获得额外次数所需时间。"
+L.battleResDesc2 = "\n你的 |cFF33FF99战复|r 使用记录可以通过将鼠标悬停在图标上时查看。\n\n"
+L.battleResHistory = "战复："
+L.battleResResetAll = "将所有战复设置重置为默认。"
+L.battleResDurationText = "时间文本"
+L.battleResChargesText = "次数文本"
+L.battleResNoCharges = "0 次可用"
+L.battleResHasCharges = "1 次或多次可用"
+L.battleResPlaySound = "获得新额外次数时播放音效"
+L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t 技能图标（Spell ID）"
+L.iconTextureSpellIDError = "你必须输入一个有效的法术ID来作为显示的图标。"
+L.battleResModeIcon = "显示模式：图标"
+L.battleResModeText = "显示模式：仅文字"
+L.battleResModeTextTooltip = "显示临时背景以便调整战复功能的位置，并查看鼠标悬停提示位置。"
 
 -----------------------------------------------------------------------
 -- Keystones.lua
@@ -392,6 +415,8 @@ L.instanceKeysShowAllDesc = "启用此选项将显示列表中的所有玩家，
 L.instanceKeysOtherDungeonColor = "其他地下城颜色"
 L.instanceKeysOtherDungeonColorDesc = "为持有非当前地下城钥石选择字体颜色。"
 L.instanceKeysEndOfRunDesc = "默认情况下，列表仅在你进入史诗钥石地下城时显示。启用此选项后，还将在史诗钥石结束后继续显示列表。"
+L.instanceKeysHideTitle = "隐藏标题"
+L.instanceKeysHideTitleDesc = "隐藏 \"谁拥有钥石？\" 标题。"
 
 -----------------------------------------------------------------------
 -- LFGTimer.lua
@@ -412,6 +437,10 @@ L.comma = "，"
 L.reset = "重置"
 L.resetDesc = "将上述设置重置为默认。"
 L.resetAll = "重置所有"
+L.startTest = "开始测试"
+L.stopTest = "停止测试"
+L.always = "总是" -- ALWAYS
+L.never = "从不" -- NEVER
 
 L.positionX = "横向位置"
 L.positionY = "纵向位置"
@@ -426,6 +455,7 @@ L.disabled = "禁用"
 L.disableDesc = "将禁用“%s”功能，但|cffff4411不建议|r这么做。\n\n你确定要这么做吗？"
 L.keybinding = "按键设置"
 L.dragToResize = "拖动调整尺寸"
+L.cannotMoveInCombat = "你在战斗中时无法移动此框体。"
 
 -- Anchor Points
 L.UP = "向上"
