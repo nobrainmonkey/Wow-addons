@@ -1,10 +1,11 @@
 
 AddOnSkinsDB = {
 ["profileKeys"] = {
-["Maweireborn - Illidan"] = "Default",
+["Maweidk - Illidan"] = "Default",
 ["Maweihunt - Illidan"] = "Default",
-["Maweigavel - Illidan"] = "Default",
 ["Maweidoodoo - Illidan"] = "Default",
+["Maweireborn - Illidan"] = "Default",
+["Maweigavel - Illidan"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

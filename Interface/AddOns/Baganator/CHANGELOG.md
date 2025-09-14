@@ -1,7 +1,6 @@
 # Baganator
 
-## [735](https://github.com/Baganator/Baganator/tree/735) (2025-09-04)
-[Full Changelog](https://github.com/Baganator/Baganator/compare/734...735) 
+## [741](https://github.com/TheMouseNest/Baganator/tree/741) (2025-09-13)
+[Full Changelog](https://github.com/TheMouseNest/Baganator/compare/740...741) 
 
-- Put new sections/categories on the cursor rather than inserting at top of list  
-- Fix deleting empty inner section moving outer section items out  
+- Categories: Fix trinkets, necks and rings appearing in default Miscellaneous cat  

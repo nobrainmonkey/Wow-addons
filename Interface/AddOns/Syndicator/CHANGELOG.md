@@ -1,7 +1,6 @@
 # Syndicator
 
-## [230](https://github.com/Baganator/Syndicator/tree/230) (2025-09-03)
-[Full Changelog](https://github.com/Baganator/Syndicator/compare/229...230) 
+## [234](https://github.com/TheMouseNest/Syndicator/tree/234) (2025-09-14)
+[Full Changelog](https://github.com/TheMouseNest/Syndicator/compare/233...234) 
 
-- Vanilla: Use CraftInfoAnywhere to detect crafted items when Player GUID missing  
-- Exclude "You can't use that here" text from usable check  
+- Search: Prevent subclass keywords with the same name as a root class conflicting  

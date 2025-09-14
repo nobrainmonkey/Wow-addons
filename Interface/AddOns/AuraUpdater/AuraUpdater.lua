@@ -102,6 +102,8 @@ end
 -- Force updates the on init code, even if the user unchecked "actions" when importing
 -- Users often do this to preserve their sounds/glow colors/etc. but it can break assignment functionality
 local function ForceUpdateOnInit(customOnInit)
+    if not LiquidUpdaterSaved.forceUpdateOnInit then return end
+
     for id, customCode in pairs(customOnInit) do
         local data = WeakAuras.GetData(id)
 

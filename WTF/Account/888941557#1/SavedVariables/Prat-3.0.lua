@@ -13,6 +13,13 @@ Prat3DB = {
 },
 },
 },
+["Prat_PlayerNames"] = {
+["profiles"] = {
+["Default"] = {
+["level"] = false,
+},
+},
+},
 ["Prat_Frames"] = {
 ["profiles"] = {
 ["Default"] = {
@@ -40,10 +47,11 @@ Prat3DB = {
 },
 },
 ["profileKeys"] = {
-["Maweireborn - Illidan"] = "Default",
-["Maweigavel - Illidan"] = "Default",
+["Maweidk - Illidan"] = "Default",
 ["Maweihunt - Illidan"] = "Default",
 ["Maweidoodoo - Illidan"] = "Default",
+["Maweigavel - Illidan"] = "Default",
+["Maweireborn - Illidan"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

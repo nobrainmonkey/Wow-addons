@@ -7,11 +7,15 @@ BAGANATOR_CONFIG = {
 ["currencies_tracked_imported"] = {
 },
 ["currencies_tracked"] = {
-["Maweihunt-Illidan"] = {
+["Maweigavel-Illidan"] = {
+},
+["Maweireborn-Illidan"] = {
 },
 ["Maweidoodoo-Illidan"] = {
 },
-["Maweigavel-Illidan"] = {
+["Maweihunt-Illidan"] = {
+},
+["Maweidk-Illidan"] = {
 },
 },
 ["sort_ignore_slots_count_2"] = {
@@ -195,8 +199,8 @@ BAGANATOR_CONFIG = {
 },
 ["bag_view_position"] = {
 "BOTTOMRIGHT",
--1615.33349609375,
-114.4999313354492,
+-123.6678466796875,
+109.5000457763672,
 },
 ["icon_text_font_size"] = 14,
 ["sort_ignore_slots_count_2"] = 0,
@@ -208,9 +212,10 @@ BAGANATOR_CONFIG = {
 ["bag_view_type"] = "category",
 ["debug_keywords"] = false,
 ["recent_characters_main_view"] = {
-"Maweigavel-Illidan",
 "Maweidoodoo-Illidan",
+"Maweigavel-Illidan",
 "Maweihunt-Illidan",
+"Maweidk-Illidan",
 "Maweireborn-Illidan",
 },
 ["category_migration"] = 5,

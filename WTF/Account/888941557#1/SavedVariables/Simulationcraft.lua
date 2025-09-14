@@ -1,19 +1,22 @@
 
 SimulationCraftDB = {
 ["profileKeys"] = {
-["Maweireborn - Illidan"] = "Maweireborn - Illidan",
+["Maweidk - Illidan"] = "Maweidk - Illidan",
 ["Maweihunt - Illidan"] = "Maweihunt - Illidan",
-["Maweigavel - Illidan"] = "Maweigavel - Illidan",
 ["Maweidoodoo - Illidan"] = "Maweidoodoo - Illidan",
+["Maweireborn - Illidan"] = "Maweireborn - Illidan",
+["Maweigavel - Illidan"] = "Maweigavel - Illidan",
 },
 ["profiles"] = {
-["Maweireborn - Illidan"] = {
+["Maweidk - Illidan"] = {
 },
 ["Maweihunt - Illidan"] = {
 },
-["Maweigavel - Illidan"] = {
-},
 ["Maweidoodoo - Illidan"] = {
+},
+["Maweireborn - Illidan"] = {
+},
+["Maweigavel - Illidan"] = {
 },
 },
 }

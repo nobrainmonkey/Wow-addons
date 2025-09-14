@@ -55,6 +55,7 @@ local function EnsureSettings()
     if not LiquidUpdaterSaved.settings then LiquidUpdaterSaved.settings = {} end
     if not LiquidUpdaterSaved.settings.frames then LiquidUpdaterSaved.settings.frames = {} end
     if not LiquidUpdaterSaved.nicknames then LiquidUpdaterSaved.nicknames = {} end
+    if LiquidUpdaterSaved.forceUpdateOnInit == nil then LiquidUpdaterSaved.forceUpdateOnInit = true end
     if LiquidUpdaterSaved.settings.readyCheckPopup == nil then LiquidUpdaterSaved.settings.readyCheckPopup = true end
     if LiquidUpdaterSaved.settings.disableBigWigsAssignments == nil then LiquidUpdaterSaved.settings.disableBigWigsAssignments = true end
 end

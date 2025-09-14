@@ -1,9 +1,1405 @@
 
 EncounterDetailsDB = {
 ["chartData"] = {
+[18] = {
+},
+[29] = {
+},
+[26] = {
+},
+[34] = {
+["Raid Damage Done"] = {
+1721095,
+377552,
+1400803,
+2294107,
+913202,
+3384817,
+5771337,
+8860440,
+8186330,
+10844603,
+10773160,
+15037085,
+4011572,
+9029847,
+18151085,
+6274231,
+14934031,
+5186996,
+6012792,
+4722769,
+4969642,
+5640962,
+5221379,
+2548776,
+5131102,
+7662106,
+4680866,
+9764420,
+3477472,
+12468332,
+7715882,
+16081726,
+14073278,
+13311925,
+12894438,
+16701684,
+11735469,
+7350234,
+3050978,
+6788544,
+5384050,
+9780878,
+4323436,
+3527719,
+2561307,
+3850039,
+3387215,
+1635064,
+2889632,
+1878666,
+["max_value"] = 18151085,
+["__time"] = 1757379557,
+},
+},
+[32] = {
+},
 },
 ["encounter_spells"] = {
+[445513] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "大检察官怀特迈恩",
+},
+[188046] = {
+["school"] = 72,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "梦境住民",
+},
+[1233415] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1233416] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "弗兰克提鲁斯",
+},
+[1228069] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1228213] = {
+["school"] = 64,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "奥术收集装置",
+},
+[1228214] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "奥术收集装置",
+},
+[1234565] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1228216] = {
+["school"] = 64,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[389541] = {
+["school"] = 8,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "白虎雕像",
+},
+[1228218] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1254762] = {
+["school"] = 124,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "伊莉萨·悲夜",
+},
+[1226823] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "弗兰克提鲁斯",
+},
+[1233301] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "黑暗奇点",
+},
+[142421] = {
+["school"] = 8,
+["token"] = {
+["SPELL_HEAL"] = true,
+},
+["source"] = "树人",
+},
+[1233411] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "弗兰克提鲁斯",
+},
+[453773] = {
+["school"] = 32,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "大领主达里安·莫格莱尼",
+},
+[1241306] = {
+["school"] = 124,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1222232] = {
+["school"] = 106,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[270481] = {
+["school"] = 36,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "恶魔暴君",
+},
+[1231403] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1227261] = {
+["school"] = 72,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1228103] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "奥术收集装置",
+},
+[1233076] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "黑暗奇点",
+},
+[1234328] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "奥术收集装置",
+},
+[1231408] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1244998] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "奥术收集装置",
+},
+[1226330] = {
+["school"] = 106,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1226366] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1228070] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1228238] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1245384] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1227847] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[438823] = {
+["school"] = 36,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "敬魔小鬼",
+},
+[1227226] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1227227] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1241833] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "伊莉萨·悲夜",
+},
+[1237212] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[59638] = {
+["school"] = 16,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "镜像",
+},
+[1227685] = {
+["school"] = 106,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1228502] = {
+["school"] = 64,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1241908] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "碎裂灵魂",
+},
+[1232568] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "伊莉萨·悲夜",
+},
+[1232569] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1228506] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1233968] = {
+["school"] = 106,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1238197] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1237272] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1228510] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[91776] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "复活的食尸鬼",
+},
+[1226539] = {
+["school"] = 106,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1240705] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "法力熔炉",
+},
+[91800] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "复活的食尸鬼",
+},
+[445504] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "大领主达里安·莫格莱尼",
+},
+[1227373] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "弗兰克提鲁斯",
+},
+[1218103] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[447433] = {
+["school"] = 8,
+["token"] = {
+["SPELL_HEAL"] = true,
+},
+["source"] = "先祖",
+},
+[1231567] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "奥术收集装置",
+},
+[1227631] = {
+["school"] = 64,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1233093] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1220394] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "弗兰克提鲁斯",
+},
+[104318] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "野生小鬼",
+},
+[199373] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "亡者大军",
+},
+[30213] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "恶魔卫士",
+},
+[1228188] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1242284] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "伊莉萨·悲夜",
+},
+[1226877] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[428735] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "树人",
+},
+[1222307] = {
+["school"] = 106,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1233103] = {
+["school"] = 106,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1230529] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1227263] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1227846] = {
+["school"] = 124,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1243887] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "黑暗奇点",
+},
+[1233997] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "奥术收集装置",
+},
+[1227140] = {
+["school"] = 8,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[123996] = {
+["school"] = 8,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "雪怒",
+},
+[1243873] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "黑暗奇点",
+},
+[1231719] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1224414] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "弗兰克提鲁斯",
+},
+[1228161] = {
+["school"] = 64,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1242259] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "伊莉萨·悲夜",
+},
+[1242133] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1231720] = {
+["school"] = 64,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1227784] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[459753] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "芬雷尔",
+},
+[1231469] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1228168] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1237205] = {
+["school"] = 106,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1237322] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "奥术收集装置",
+},
+[1238266] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "庇护的侍从",
+},
+[1226395] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1241254] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1235158] = {
+["school"] = 106,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1226493] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "伊莉萨·悲夜",
+},
+[1245575] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1228100] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "奥术收集装置",
+},
+[1225130] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1227163] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1218122] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1221490] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1241946] = {
+["school"] = 124,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "伊莉萨·悲夜",
+},
+[1227782] = {
+["school"] = 64,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1221477] = {
+["school"] = 124,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1227355] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1240708] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "法力熔炉",
+},
+[1235045] = {
+["school"] = 106,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "阿达拉斯·暮焰",
+},
+[1231871] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "弗兰克提鲁斯",
+},
+[1233979] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "奥术收集装置",
+},
+[1227809] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1243771] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1227811] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1232130] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "弗兰克提鲁斯",
+},
+[55078] = {
+["school"] = 32,
+["token"] = {
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "符文武器",
+},
+[1241149] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "庇护的侍从",
+},
+[434589] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "大恶魔",
+},
+[1248009] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "熔炉编织者阿拉兹",
+},
+[1227823] = {
+["school"] = 124,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1231501] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "维拉瑞安·血愤",
+},
+[1226311] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "卢米萨尔",
+},
+[1241917] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "碎裂灵魂",
+},
+[1225154] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "伊莉萨·悲夜",
+},
+[1225155] = {
+["school"] = 124,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "伊莉萨·悲夜",
+},
+[404908] = {
+["school"] = 64,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "野生小鬼",
+},
 },
 ["emotes"] = {
+{
+{
+127.8389999999999,
+"|TInterface\\ICONS\\Spell_Hunter_BlackIceTrap.blp:20|t弗兰克提鲁斯以你为目标施放|cFFFF0000|Hspell:1233416|h[结晶震荡波]|h|r。",
+"弗兰克提鲁斯",
+2,
+},
+{
+141.2010000000009,
+"|TInterface\\ICONS\\INV_Jewelry_Talisman_16.blp:20|t你受到了|cFFFF0000|Hspell:1227373|h[碎壳]|h|r的影响！",
+"弗兰克提鲁斯",
+2,
+},
+["boss"] = "弗兰克提鲁斯",
+},
+{
+{
+4.559999999997672,
+"向虚空屈服吧！",
+"阿达拉斯·暮焰",
+7,
+},
+{
+14.62000000000262,
+"拆碎灵魂，粉碎心智。",
+"伊莉萨·悲夜",
+7,
+},
+{
+19.32899999999791,
+"感受我的愤怒。",
+"维拉瑞安·血愤",
+7,
+},
+{
+32.46500000000378,
+"嗯，真美味。",
+"伊莉萨·悲夜",
+7,
+},
+{
+32.76699999999983,
+"像畜生一样倒下吧。",
+"阿达拉斯·暮焰",
+7,
+},
+{
+42.69400000000314,
+"|TInterface\\ICONS\\INV_Ability_DemonHunter_TheHunt.BLP:20|t维拉瑞安将Justdelicate选为了|cFFFF0000|Hspell:1227809|h[恶魔追击]|h|r的目标！",
+"维拉瑞安·血愤",
+1,
+},
+{
+42.69400000000314,
+"你逃不掉了，哈哈哈……",
+"维拉瑞安·血愤",
+7,
+},
+{
+50.36800000000221,
+"拆碎灵魂，粉碎心智。",
+"伊莉萨·悲夜",
+7,
+},
+{
+55.12700000000041,
+"感受我的愤怒。",
+"维拉瑞安·血愤",
+7,
+},
+{
+64.36200000000099,
+"像畜生一样倒下吧。",
+"阿达拉斯·暮焰",
+7,
+},
+{
+68.18299999999726,
+"嗯，真美味。",
+"伊莉萨·悲夜",
+7,
+},
+{
+78.40499999999884,
+"|TInterface\\ICONS\\INV_Ability_DemonHunter_TheHunt.BLP:20|t维拉瑞安将Aiyaminos选为了|cFFFF0000|Hspell:1227809|h[恶魔追击]|h|r的目标！",
+"维拉瑞安·血愤",
+1,
+},
+{
+78.40499999999884,
+"你逃不掉了，哈哈哈……",
+"维拉瑞安·血愤",
+7,
+},
+{
+86.10100000000239,
+"拆碎灵魂，粉碎心智。",
+"伊莉萨·悲夜",
+7,
+},
+{
+90.83000000000175,
+"感受我的愤怒。",
+"维拉瑞安·血愤",
+7,
+},
+{
+93.05099999999948,
+"像畜生一样倒下吧。",
+"阿达拉斯·暮焰",
+7,
+},
+{
+103.8289999999979,
+"嗯，真美味。",
+"伊莉萨·悲夜",
+7,
+},
+{
+110.010000000002,
+"我抓到你了。",
+"阿达拉斯·暮焰",
+7,
+},
+{
+116.6690000000017,
+"见识真正的力量吧！",
+"阿达拉斯·暮焰",
+7,
+},
+{
+145.5480000000025,
+"拆碎灵魂，粉碎心智。",
+"伊莉萨·悲夜",
+7,
+},
+{
+150.1810000000041,
+"感受我的愤怒。",
+"维拉瑞安·血愤",
+7,
+},
+{
+163.2860000000001,
+"嗯，真美味。",
+"伊莉萨·悲夜",
+7,
+},
+{
+163.5650000000023,
+"像畜生一样倒下吧。",
+"阿达拉斯·暮焰",
+7,
+},
+{
+173.4230000000025,
+"|TInterface\\ICONS\\INV_Ability_DemonHunter_TheHunt.BLP:20|t维拉瑞安将Dracaarys选为了|cFFFF0000|Hspell:1227809|h[恶魔追击]|h|r的目标！",
+"维拉瑞安·血愤",
+1,
+},
+{
+173.4230000000025,
+"你逃不掉了，哈哈哈……",
+"维拉瑞安·血愤",
+7,
+},
+{
+181.1580000000031,
+"拆碎灵魂，粉碎心智。",
+"伊莉萨·悲夜",
+7,
+},
+{
+185.864999999998,
+"感受我的愤怒。",
+"维拉瑞安·血愤",
+7,
+},
+{
+195.3000000000029,
+"像畜生一样倒下吧。",
+"阿达拉斯·暮焰",
+7,
+},
+{
+199.1169999999984,
+"嗯，真美味。",
+"伊莉萨·悲夜",
+7,
+},
+{
+209.1929999999993,
+"|TInterface\\ICONS\\INV_Ability_DemonHunter_TheHunt.BLP:20|t维拉瑞安将Duolagong选为了|cFFFF0000|Hspell:1227809|h[恶魔追击]|h|r的目标！",
+"维拉瑞安·血愤",
+1,
+},
+{
+209.1929999999993,
+"你逃不掉了，哈哈哈……",
+"维拉瑞安·血愤",
+7,
+},
+{
+216.8870000000024,
+"拆碎灵魂，粉碎心智。",
+"伊莉萨·悲夜",
+7,
+},
+{
+221.5900000000038,
+"感受我的愤怒。",
+"维拉瑞安·血愤",
+7,
+},
+{
+223.9930000000022,
+"像畜生一样倒下吧。",
+"阿达拉斯·暮焰",
+7,
+},
+{
+231.448000000004,
+"我窥见了……空虚。",
+"阿达拉斯·暮焰",
+7,
+},
+{
+232.3190000000031,
+"他们……得手了？",
+"伊莉萨·悲夜",
+7,
+},
+["boss"] = "狩魂猎手",
+},
+{
+{
+8.429000000003725,
+"更多力量！仪式必须继续。",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+19.46100000000297,
+"回路闭合，凋零至死吧！",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+30.45900000000256,
+"迪门修斯将饱餐你的能量！",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+52.6730000000025,
+"秩序的能量，汇聚，转化。",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+63.45700000000215,
+"|TInterface\\ICONS\\Ability_Socererking_arcanefortification.BLP:20|t你被|cFFFF0000|Hspell:1228214|h[星界收割]|h|r标记了！",
+"奥术收集装置",
+2,
+},
+{
+63.47100000000501,
+"你的能量支持着我的机器。",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+75.48200000000361,
+"我不容许有人打搅！",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+94.44200000000274,
+"你的能量支持着我的机器。",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+124.6759999999995,
+"对，晶塔的能量在增长。仪式就要完成了！",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+129.6399999999994,
+"熔炉编织者阿拉兹准备施展奥术仪式！",
+"熔炉编织者阿拉兹",
+1,
+},
+{
+140.5950000000012,
+"守护机器！",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+146.4000000000015,
+"小小的挫折！",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+160.7010000000009,
+"我的仪式！无所谓了，没有牺牲，谈何忠诚？",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+160.7010000000009,
+"我会成功的，仪式必须继续！",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+178.6470000000045,
+"异端们！你们打扰了仪式，可我还能用信仰来维持机器！",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+193.8810000000012,
+"你的能量支持着我的机器。",
+"熔炉编织者阿拉兹",
+7,
+},
+{
+193.8810000000012,
+"|TInterface\\ICONS\\INV_CosmicVoid_Debuff.BLP:20|t你被选为|cFFFF0000|Hspell:1243887|h[虚空收割]|h|r的目标！",
+"黑暗奇点",
+2,
+},
+["boss"] = "熔炉编织者阿拉兹",
+},
 },
 }

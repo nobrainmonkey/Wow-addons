@@ -12,9 +12,21 @@ RaiderIO_Config = {
 ["hide"] = false,
 },
 }
-RaiderIO_LastCharacter = "us-Maweigavel-illidan"
+RaiderIO_LastCharacter = "us-Maweidoodoo-illidan"
 RaiderIO_MissingCharacters = {
-["us-Maxmer-illidan"] = true,
+["us-Aguacoroto-illidan"] = true,
+["us-Thiickcalves-illidan"] = true,
+["us-Yeneffer-illidan"] = true,
+["us-Lelwanis-illidan"] = true,
+["us-Ogurchik-illidan"] = true,
+["us-Kharnîj-illidan"] = true,
+["us-Nergál-illidan"] = true,
+["us-Owamashi-illidan"] = true,
+["us-Bastionfel-illidan"] = true,
+["us-Gingerade-illidan"] = true,
+["us-Roadwolf-illidan"] = true,
+["us-Jingakh-illidan"] = true,
+["us-Salvian-illidan"] = true,
 }
 RaiderIO_MissingServers = {
 }

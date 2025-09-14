@@ -19,6 +19,10 @@ VER 3 0100000000000002 "leap" "134400"
 #showtooltip 
 /cast [@cursor] 英勇飞跃
 END
+VER 3 010000000000000C "Rav2" "134400"
+#showtooltip 
+/cast [@player] 破坏者
+END
 VER 3 0100000000000004 "Ravager" "134400"
 #showtooltip 
 /cast [@cursor] 破坏者
