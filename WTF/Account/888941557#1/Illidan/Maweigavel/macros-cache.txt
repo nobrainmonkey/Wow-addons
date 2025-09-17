@@ -10,6 +10,12 @@ VER 3 0100000000000008 "burst" "INV_Misc_QuestionMark"
 /use 纸牌屋
 /use [combat] 17
 END
+VER 3 010000000000000D "Burst" "134400"
+#showtooltip
+/cast Recklessness
+/cast Avatar
+/cast Thunderous Roar
+END
 VER 3 0100000000000005 "charge" "134400"
 #showtooltip 冲锋
 /cast [target=mouseover,help,exists,nodead]援护;援护

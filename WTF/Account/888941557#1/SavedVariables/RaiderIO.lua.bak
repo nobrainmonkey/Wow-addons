@@ -1,32 +1,21 @@
 
 RaiderIO_Config = {
+["minimapIcon"] = {
+["minimapPos"] = 180,
+["showInCompartment"] = true,
+["hide"] = false,
+["lock"] = false,
+},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16,
 ["point"] = "TOPLEFT",
 },
-["minimapIcon"] = {
-["minimapPos"] = 180,
-["showInCompartment"] = true,
-["lock"] = false,
-["hide"] = false,
-},
 }
 RaiderIO_LastCharacter = "us-Maweidoodoo-illidan"
 RaiderIO_MissingCharacters = {
-["us-Aguacoroto-illidan"] = true,
-["us-Thiickcalves-illidan"] = true,
-["us-Yeneffer-illidan"] = true,
-["us-Lelwanis-illidan"] = true,
-["us-Ogurchik-illidan"] = true,
-["us-Kharnîj-illidan"] = true,
-["us-Nergál-illidan"] = true,
-["us-Owamashi-illidan"] = true,
-["us-Bastionfel-illidan"] = true,
-["us-Gingerade-illidan"] = true,
-["us-Roadwolf-illidan"] = true,
-["us-Jingakh-illidan"] = true,
-["us-Salvian-illidan"] = true,
+["us-Raizelx-illidan"] = true,
+["us-Svips-illidan"] = true,
 }
 RaiderIO_MissingServers = {
 }

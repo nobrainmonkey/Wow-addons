@@ -1,3 +1,7 @@
+VER 3 0100000000000003 "rescue" "134400"
+#showtooltip 营救
+/cast [@Cursor, @Cursor] 营救
+END
 VER 3 0100000000000002 "亏狂龙" "134400"
 #showtooltip
 /cast 狂龙之怒

@@ -1,14 +1,14 @@
-VER 3 0100000000000008 "burst" "INV_Misc_QuestionMark"
-#showtooltip 鲁莽
-/cast 鲁莽
-/use 纸牌屋
-/use [combat] 17
-END
 VER 3 0100000000000007 "burst" "134400"
 #showtooltip 鲁莽
 /use 最上品
 /use 隐修院印章
 /cast 鲁莽
+END
+VER 3 0100000000000008 "burst" "INV_Misc_QuestionMark"
+#showtooltip 鲁莽
+/cast 鲁莽
+/use 纸牌屋
+/use [combat] 17
 END
 VER 3 0100000000000005 "charge" "134400"
 #showtooltip 冲锋

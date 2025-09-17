@@ -13,17 +13,3 @@ X: 181
 Y: 141
 W: 1012
 H: 550
-Frame: HeroTalentsSelectionDialog
-FrameLevel: 1
-Anchor: TOP
-X: 0
-Y: -70
-W: 970
-H: 832
-Frame: PlayerSpellsFrame
-FrameLevel: 1
-Anchor: TOP
-X: 0
-Y: -41
-W: 1618
-H: 883

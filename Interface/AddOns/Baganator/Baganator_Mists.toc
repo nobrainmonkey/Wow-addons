@@ -1,6 +1,6 @@
 ## Interface: 50500
 ## Title: Baganator
-## Version: 741
+## Version: 742
 ## Author: plusmouse
 ## OptionalDeps: Syndicator, Masque
 ## SavedVariables: BAGANATOR_CONFIG, BAGANATOR_DATA
@@ -90,6 +90,7 @@ ItemViewCommon\BankViewWarbandView.lua
 ItemViewCommon\BankViewWarbandView.xml
 ItemViewCommon\BankView.lua
 ItemViewCommon\BankView.xml
+ItemViewCommon\BankTransferManager.lua
 ItemViewCommon\BagTransfers.lua
 ItemViewCommon\NewItemsTracking.lua
 ItemViewCommon\AnchorSetter.lua

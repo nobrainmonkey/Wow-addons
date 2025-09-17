@@ -3,8 +3,6 @@ DetailsDataStorage = {
 ["normal"] = {
 [3134] = {
 {
-["date"] = "21:15 20/08/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 801400223,
@@ -46,10 +44,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 706.75,
 ["classId"] = 1,
 },
-["Aiwozhonghua"] = {
-["total"] = 652733619,
-["itemLevel"] = 693.0625,
-["classId"] = 2,
+["Chudricklion-Zul'jin"] = {
+["total"] = 724576058,
+["itemLevel"] = 699.1875,
+["classId"] = 12,
 },
 ["Mejojod"] = {
 ["total"] = 822105237,
@@ -71,15 +69,15 @@ DetailsDataStorage = {
 ["itemLevel"] = 692.375,
 ["classId"] = 4,
 },
-["Chudricklion-Zul'jin"] = {
-["total"] = 724576058,
-["itemLevel"] = 699.1875,
-["classId"] = 12,
+["Aiwozhonghua"] = {
+["total"] = 652733619,
+["itemLevel"] = 693.0625,
+["classId"] = 2,
 },
-["Littledotdot"] = {
-["total"] = 744291453,
-["itemLevel"] = 699.625,
-["classId"] = 9,
+["Zettahowl"] = {
+["total"] = 633322907,
+["itemLevel"] = 699.5625,
+["classId"] = 7,
 },
 ["Pípi"] = {
 ["total"] = 811343903,
@@ -96,10 +94,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 700.75,
 ["classId"] = 12,
 },
-["Zettahowl"] = {
-["total"] = 633322907,
-["itemLevel"] = 699.5625,
-["classId"] = 7,
+["Littledotdot"] = {
+["total"] = 744291453,
+["itemLevel"] = 699.625,
+["classId"] = 9,
 },
 ["Minalock"] = {
 ["total"] = 519394457,
@@ -107,6 +105,8 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
+["time"] = 1755738944,
+["date"] = "21:15 20/08/25",
 ["elapsed"] = 177.1049999999959,
 ["servertime"] = 1755738943,
 ["HEALER"] = {
@@ -131,13 +131,11 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1755738944,
+["guild"] = "Squirrel Squad",
 },
 },
 [3135] = {
 {
-["date"] = "21:26 20/08/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 795498154,
@@ -184,10 +182,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 706.75,
 ["classId"] = 1,
 },
-["Aiwozhonghua"] = {
-["total"] = 411957916,
-["itemLevel"] = 693.0625,
-["classId"] = 2,
+["Chudricklion-Zul'jin"] = {
+["total"] = 829794603,
+["itemLevel"] = 699.1875,
+["classId"] = 12,
 },
 ["Mejojod"] = {
 ["total"] = 769310874,
@@ -209,15 +207,15 @@ DetailsDataStorage = {
 ["itemLevel"] = 692.375,
 ["classId"] = 4,
 },
-["Chudricklion-Zul'jin"] = {
-["total"] = 829794603,
-["itemLevel"] = 699.1875,
-["classId"] = 12,
+["Aiwozhonghua"] = {
+["total"] = 411957916,
+["itemLevel"] = 693.0625,
+["classId"] = 2,
 },
-["Zettahowl"] = {
-["total"] = 669735975,
-["itemLevel"] = 699.5625,
-["classId"] = 7,
+["Littledotdot"] = {
+["total"] = 867697289,
+["itemLevel"] = 699.625,
+["classId"] = 9,
 },
 ["Pípi"] = {
 ["total"] = 830607684,
@@ -234,10 +232,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 700.75,
 ["classId"] = 12,
 },
-["Littledotdot"] = {
-["total"] = 867697289,
-["itemLevel"] = 699.625,
-["classId"] = 9,
+["Zettahowl"] = {
+["total"] = 669735975,
+["itemLevel"] = 699.5625,
+["classId"] = 7,
 },
 ["Minalock"] = {
 ["total"] = 488732826,
@@ -245,6 +243,8 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
+["time"] = 1755739567,
+["date"] = "21:26 20/08/25",
 ["elapsed"] = 322.596000000005,
 ["servertime"] = 1755739566,
 ["HEALER"] = {
@@ -269,11 +269,13 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1755739567,
+["guild"] = "Squirrel Squad",
 },
 },
 [3129] = {
 {
+["date"] = "20:23 20/08/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 504646718,
@@ -371,8 +373,6 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
-["time"] = 1755735821,
-["date"] = "20:23 20/08/25",
 ["elapsed"] = 130.6090000000004,
 ["servertime"] = 1755735823,
 ["HEALER"] = {
@@ -392,12 +392,26 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1755735821,
 },
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1756340518,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 137.9839999999967,
+["date"] = "20:21 27/08/25",
+["servertime"] = 1756340517,
+["HEALER"] = {
+["Gingermint"] = {
+["total"] = 366707434,
+["itemLevel"] = 708.125,
+["classId"] = 7,
+},
+["Jaysontatum"] = {
+["total"] = 275532248,
+["itemLevel"] = 692.875,
+["classId"] = 11,
+},
+},
 ["DAMAGER"] = {
 ["Mtreè"] = {
 ["total"] = 630685423,
@@ -465,51 +479,13 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-["servertime"] = 1756340517,
-["HEALER"] = {
-["Gingermint"] = {
-["total"] = 366707434,
-["itemLevel"] = 708.125,
-["classId"] = 7,
-},
-["Jaysontatum"] = {
-["total"] = 275532248,
-["itemLevel"] = 692.875,
-["classId"] = 11,
-},
-},
-["date"] = "20:21 27/08/25",
 },
 },
 [3130] = {
 {
-["time"] = 1755736922,
 ["guild"] = "Squirrel Squad",
+["time"] = 1755736922,
 ["elapsed"] = 150.3029999999999,
-["date"] = "20:42 20/08/25",
-["servertime"] = 1755736924,
-["HEALER"] = {
-["Víkii"] = {
-["total"] = 158860922,
-["itemLevel"] = 698.6875,
-["classId"] = 5,
-},
-["Dwarfhp"] = {
-["total"] = 190788158,
-["itemLevel"] = 697.625,
-["classId"] = 2,
-},
-["Mistonk"] = {
-["total"] = 253645256,
-["itemLevel"] = 701.75,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 280011922,
-["itemLevel"] = 706.75,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 854143509,
@@ -612,11 +588,54 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
+["servertime"] = 1755736924,
+["HEALER"] = {
+["Víkii"] = {
+["total"] = 158860922,
+["itemLevel"] = 698.6875,
+["classId"] = 5,
+},
+["Dwarfhp"] = {
+["total"] = 190788158,
+["itemLevel"] = 697.625,
+["classId"] = 2,
+},
+["Mistonk"] = {
+["total"] = 253645256,
+["itemLevel"] = 701.75,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 280011922,
+["itemLevel"] = 706.75,
+["classId"] = 5,
+},
+},
+["date"] = "20:42 20/08/25",
 },
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1756341135,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 149.4680000000008,
+["date"] = "20:32 27/08/25",
+["servertime"] = 1756341134,
+["HEALER"] = {
+["Jaysontatum"] = {
+["total"] = 281342474,
+["itemLevel"] = 692.875,
+["classId"] = 11,
+},
+["Gingermint"] = {
+["total"] = 309242006,
+["itemLevel"] = 708.125,
+["classId"] = 7,
+},
+["Annisfia"] = {
+["total"] = 11629346,
+["itemLevel"] = 686.9375,
+["classId"] = 5,
+},
+},
 ["DAMAGER"] = {
 ["Tangyuän"] = {
 ["total"] = 820158207,
@@ -689,51 +708,13 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-["servertime"] = 1756341134,
-["HEALER"] = {
-["Jaysontatum"] = {
-["total"] = 281342474,
-["itemLevel"] = 692.875,
-["classId"] = 11,
-},
-["Gingermint"] = {
-["total"] = 309242006,
-["itemLevel"] = 708.125,
-["classId"] = 7,
-},
-["Annisfia"] = {
-["total"] = 11629346,
-["itemLevel"] = 686.9375,
-["classId"] = 5,
-},
-},
-["date"] = "20:32 27/08/25",
 },
 },
 [3131] = {
 {
-["time"] = 1755736373,
 ["guild"] = "Squirrel Squad",
+["time"] = 1755736373,
 ["elapsed"] = 137.4979999999996,
-["date"] = "20:32 20/08/25",
-["servertime"] = 1755736375,
-["HEALER"] = {
-["Dwarfhp"] = {
-["total"] = 357239741,
-["itemLevel"] = 697.625,
-["classId"] = 2,
-},
-["Mistonk"] = {
-["total"] = 448882802,
-["itemLevel"] = 701.75,
-["classId"] = 10,
-},
-["Víkii"] = {
-["total"] = 253547177,
-["itemLevel"] = 698.6875,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 551535130,
@@ -826,40 +807,30 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
+["servertime"] = 1755736375,
+["HEALER"] = {
+["Dwarfhp"] = {
+["total"] = 357239741,
+["itemLevel"] = 697.625,
+["classId"] = 2,
+},
+["Mistonk"] = {
+["total"] = 448882802,
+["itemLevel"] = 701.75,
+["classId"] = 10,
+},
+["Víkii"] = {
+["total"] = 253547177,
+["itemLevel"] = 698.6875,
+["classId"] = 5,
+},
+},
+["date"] = "20:32 20/08/25",
 },
 {
-["time"] = 1755915358,
 ["guild"] = "Squirrel Squad",
+["time"] = 1755915358,
 ["elapsed"] = 155.791999999994,
-["date"] = "22:15 22/08/25",
-["servertime"] = 1755915357,
-["HEALER"] = {
-["Xue"] = {
-["total"] = 319433817,
-["itemLevel"] = 662.125,
-["classId"] = 5,
-},
-["Bearbuttfan"] = {
-["total"] = 415398246,
-["itemLevel"] = 708.75,
-["classId"] = 11,
-},
-["Dragonnorage-Tichondrius"] = {
-["total"] = 413561718,
-["itemLevel"] = 693.4375,
-["classId"] = 11,
-},
-["Furennsp"] = {
-["total"] = 553966658,
-["itemLevel"] = 699.0625,
-["classId"] = 13,
-},
-["Annisfia"] = {
-["total"] = 255897747,
-["itemLevel"] = 686.3125,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Zettaflame"] = {
 ["total"] = 760994074,
@@ -962,11 +933,59 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["servertime"] = 1755915357,
+["HEALER"] = {
+["Xue"] = {
+["total"] = 319433817,
+["itemLevel"] = 662.125,
+["classId"] = 5,
+},
+["Bearbuttfan"] = {
+["total"] = 415398246,
+["itemLevel"] = 708.75,
+["classId"] = 11,
+},
+["Dragonnorage-Tichondrius"] = {
+["total"] = 413561718,
+["itemLevel"] = 693.4375,
+["classId"] = 11,
+},
+["Furennsp"] = {
+["total"] = 553966658,
+["itemLevel"] = 699.0625,
+["classId"] = 13,
+},
+["Annisfia"] = {
+["total"] = 255897747,
+["itemLevel"] = 686.3125,
+["classId"] = 5,
+},
+},
+["date"] = "22:15 22/08/25",
 },
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755917779,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 164.7699999999968,
+["date"] = "22:56 22/08/25",
+["servertime"] = 1755917778,
+["HEALER"] = {
+["Linshiifuren"] = {
+["total"] = 607017340,
+["itemLevel"] = 706.9375,
+["classId"] = 10,
+},
+["Jaysontatum"] = {
+["total"] = 388733128,
+["itemLevel"] = 690.0625,
+["classId"] = 11,
+},
+["Gingermint"] = {
+["total"] = 389920320,
+["itemLevel"] = 705.9375,
+["classId"] = 7,
+},
+},
 ["DAMAGER"] = {
 ["Bigbltches-Tichondrius"] = {
 ["total"] = 587144794,
@@ -1054,30 +1073,30 @@ DetailsDataStorage = {
 ["classId"] = 4,
 },
 },
-["servertime"] = 1755917778,
-["HEALER"] = {
-["Linshiifuren"] = {
-["total"] = 607017340,
-["itemLevel"] = 706.9375,
-["classId"] = 10,
-},
-["Jaysontatum"] = {
-["total"] = 388733128,
-["itemLevel"] = 690.0625,
-["classId"] = 11,
-},
-["Gingermint"] = {
-["total"] = 389920320,
-["itemLevel"] = 705.9375,
-["classId"] = 7,
-},
-},
-["date"] = "22:56 22/08/25",
 },
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1756341701,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 132.0649999999951,
+["date"] = "20:41 27/08/25",
+["servertime"] = 1756341700,
+["HEALER"] = {
+["Gingermint"] = {
+["total"] = 560607833,
+["itemLevel"] = 708.125,
+["classId"] = 7,
+},
+["Shammicate"] = {
+["total"] = 311505212,
+["itemLevel"] = 707.5625,
+["classId"] = 7,
+},
+["Annisfia"] = {
+["total"] = 110474417,
+["itemLevel"] = 686.9375,
+["classId"] = 5,
+},
+},
 ["DAMAGER"] = {
 ["Tangyuän"] = {
 ["total"] = 686288140,
@@ -1104,14 +1123,14 @@ DetailsDataStorage = {
 ["itemLevel"] = 705.3125,
 ["classId"] = 4,
 },
-["Lvbuhunter"] = {
-["total"] = 354279756,
-["itemLevel"] = 680.1875,
-["classId"] = 3,
-},
 ["Aliveevil"] = {
 ["total"] = 723464393,
 ["itemLevel"] = 708.9375,
+["classId"] = 3,
+},
+["Lvbuhunter"] = {
+["total"] = 354279756,
+["itemLevel"] = 680.1875,
 ["classId"] = 3,
 },
 ["Mistelnx"] = {
@@ -1155,31 +1174,10 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-["servertime"] = 1756341700,
-["HEALER"] = {
-["Gingermint"] = {
-["total"] = 560607833,
-["itemLevel"] = 708.125,
-["classId"] = 7,
-},
-["Shammicate"] = {
-["total"] = 311505212,
-["itemLevel"] = 707.5625,
-["classId"] = 7,
-},
-["Annisfia"] = {
-["total"] = 110474417,
-["itemLevel"] = 686.9375,
-["classId"] = 5,
-},
-},
-["date"] = "20:41 27/08/25",
 },
 },
 [3132] = {
 {
-["date"] = "20:53 20/08/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 842272648,
@@ -1287,6 +1285,8 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
+["time"] = 1755737612,
+["date"] = "20:53 20/08/25",
 ["elapsed"] = 151.4789999999994,
 ["servertime"] = 1755737611,
 ["HEALER"] = {
@@ -1311,41 +1311,12 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1755737612,
+["guild"] = "Squirrel Squad",
 },
 {
-["time"] = 1755915992,
 ["guild"] = "Squirrel Squad",
+["time"] = 1755915992,
 ["elapsed"] = 194.8619999999937,
-["date"] = "22:26 22/08/25",
-["servertime"] = 1755915992,
-["HEALER"] = {
-["Xue"] = {
-["total"] = 168641486,
-["itemLevel"] = 662.125,
-["classId"] = 5,
-},
-["Bearbuttfan"] = {
-["total"] = 106592207,
-["itemLevel"] = 708.75,
-["classId"] = 11,
-},
-["Dragonnorage-Tichondrius"] = {
-["total"] = 195426168,
-["itemLevel"] = 693.4375,
-["classId"] = 11,
-},
-["Furennsp"] = {
-["total"] = 370860521,
-["itemLevel"] = 699.0625,
-["classId"] = 13,
-},
-["Annisfia"] = {
-["total"] = 163712566,
-["itemLevel"] = 686.3125,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Zettaflame"] = {
 ["total"] = 876382387,
@@ -1448,11 +1419,59 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["servertime"] = 1755915992,
+["HEALER"] = {
+["Xue"] = {
+["total"] = 168641486,
+["itemLevel"] = 662.125,
+["classId"] = 5,
+},
+["Bearbuttfan"] = {
+["total"] = 106592207,
+["itemLevel"] = 708.75,
+["classId"] = 11,
+},
+["Dragonnorage-Tichondrius"] = {
+["total"] = 195426168,
+["itemLevel"] = 693.4375,
+["classId"] = 11,
+},
+["Furennsp"] = {
+["total"] = 370860521,
+["itemLevel"] = 699.0625,
+["classId"] = 13,
+},
+["Annisfia"] = {
+["total"] = 163712566,
+["itemLevel"] = 686.3125,
+["classId"] = 5,
+},
+},
+["date"] = "22:26 22/08/25",
 },
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755918469,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 196.6429999999964,
+["date"] = "23:07 22/08/25",
+["servertime"] = 1755918469,
+["HEALER"] = {
+["Linshiifuren"] = {
+["total"] = 294930323,
+["itemLevel"] = 706.9375,
+["classId"] = 10,
+},
+["Jaysontatum"] = {
+["total"] = 159578823,
+["itemLevel"] = 690.0625,
+["classId"] = 11,
+},
+["Gingermint"] = {
+["total"] = 187948082,
+["itemLevel"] = 705.9375,
+["classId"] = 7,
+},
+},
 ["DAMAGER"] = {
 ["Bigbltches-Tichondrius"] = {
 ["total"] = 799903677,
@@ -1545,30 +1564,30 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["servertime"] = 1755918469,
-["HEALER"] = {
-["Linshiifuren"] = {
-["total"] = 294930323,
-["itemLevel"] = 706.9375,
-["classId"] = 10,
-},
-["Jaysontatum"] = {
-["total"] = 159578823,
-["itemLevel"] = 690.0625,
-["classId"] = 11,
-},
-["Gingermint"] = {
-["total"] = 187948082,
-["itemLevel"] = 705.9375,
-["classId"] = 7,
-},
-},
-["date"] = "23:07 22/08/25",
 },
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1756342221,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 132.7869999999966,
+["date"] = "20:50 27/08/25",
+["servertime"] = 1756342220,
+["HEALER"] = {
+["Gingermint"] = {
+["total"] = 256301538,
+["itemLevel"] = 708.125,
+["classId"] = 7,
+},
+["Shammicate"] = {
+["total"] = 205594037,
+["itemLevel"] = 707.5625,
+["classId"] = 7,
+},
+["Annisfia"] = {
+["total"] = 41612190,
+["itemLevel"] = 686.9375,
+["classId"] = 5,
+},
+},
 ["DAMAGER"] = {
 ["Tangyuän"] = {
 ["total"] = 666032062,
@@ -1595,14 +1614,14 @@ DetailsDataStorage = {
 ["itemLevel"] = 705.3125,
 ["classId"] = 4,
 },
-["Lvbuhunter"] = {
-["total"] = 362083322,
-["itemLevel"] = 680.1875,
-["classId"] = 3,
-},
 ["Aliveevil"] = {
 ["total"] = 640461318,
 ["itemLevel"] = 708.9375,
+["classId"] = 3,
+},
+["Lvbuhunter"] = {
+["total"] = 362083322,
+["itemLevel"] = 680.1875,
 ["classId"] = 3,
 },
 ["Mistelnx"] = {
@@ -1646,31 +1665,10 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-["servertime"] = 1756342220,
-["HEALER"] = {
-["Gingermint"] = {
-["total"] = 256301538,
-["itemLevel"] = 708.125,
-["classId"] = 7,
-},
-["Shammicate"] = {
-["total"] = 205594037,
-["itemLevel"] = 707.5625,
-["classId"] = 7,
-},
-["Annisfia"] = {
-["total"] = 41612190,
-["itemLevel"] = 686.9375,
-["classId"] = 5,
-},
-},
-["date"] = "20:50 27/08/25",
 },
 },
 [3133] = {
 {
-["date"] = "21:07 20/08/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 540410117,
@@ -1778,6 +1776,8 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
+["time"] = 1755738433,
+["date"] = "21:07 20/08/25",
 ["elapsed"] = 124.4979999999996,
 ["servertime"] = 1755738433,
 ["HEALER"] = {
@@ -1802,36 +1802,12 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1755738433,
+["guild"] = "Squirrel Squad",
 },
 {
-["time"] = 1755916846,
 ["guild"] = "Squirrel Squad",
+["time"] = 1755916846,
 ["elapsed"] = 134.364999999998,
-["date"] = "22:40 22/08/25",
-["servertime"] = 1755916845,
-["HEALER"] = {
-["Xue"] = {
-["total"] = 131897760,
-["itemLevel"] = 662.125,
-["classId"] = 5,
-},
-["Bearbuttfan"] = {
-["total"] = 129834450,
-["itemLevel"] = 708.75,
-["classId"] = 11,
-},
-["Dragonnorage-Tichondrius"] = {
-["total"] = 178793424,
-["itemLevel"] = 693.4375,
-["classId"] = 11,
-},
-["Furennsp"] = {
-["total"] = 212941715,
-["itemLevel"] = 699.0625,
-["classId"] = 13,
-},
-},
 ["DAMAGER"] = {
 ["Zettaflame"] = {
 ["total"] = 520382048,
@@ -1939,12 +1915,34 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["servertime"] = 1755916845,
+["HEALER"] = {
+["Xue"] = {
+["total"] = 131897760,
+["itemLevel"] = 662.125,
+["classId"] = 5,
+},
+["Bearbuttfan"] = {
+["total"] = 129834450,
+["itemLevel"] = 708.75,
+["classId"] = 11,
+},
+["Dragonnorage-Tichondrius"] = {
+["total"] = 178793424,
+["itemLevel"] = 693.4375,
+["classId"] = 11,
+},
+["Furennsp"] = {
+["total"] = 212941715,
+["itemLevel"] = 699.0625,
+["classId"] = 13,
+},
+},
+["date"] = "22:40 22/08/25",
 },
 },
 [3122] = {
 {
-["date"] = "21:01 20/08/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1354929397,
@@ -2016,10 +2014,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 693.0625,
 ["classId"] = 2,
 },
-["Littledotdot"] = {
-["total"] = 1049053531,
-["itemLevel"] = 700.8666666666667,
-["classId"] = 9,
+["Zettahowl"] = {
+["total"] = 882639738,
+["itemLevel"] = 699.5625,
+["classId"] = 7,
 },
 ["Pípi"] = {
 ["total"] = 1329209875,
@@ -2036,10 +2034,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 700.75,
 ["classId"] = 12,
 },
-["Zettahowl"] = {
-["total"] = 882639738,
-["itemLevel"] = 699.5625,
-["classId"] = 7,
+["Littledotdot"] = {
+["total"] = 1049053531,
+["itemLevel"] = 700.8666666666667,
+["classId"] = 9,
 },
 ["Minalock"] = {
 ["total"] = 766709554,
@@ -2047,6 +2045,8 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
+["time"] = 1755738069,
+["date"] = "21:01 20/08/25",
 ["elapsed"] = 199.0520000000033,
 ["servertime"] = 1755738068,
 ["HEALER"] = {
@@ -2071,36 +2071,12 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1755738069,
+["guild"] = "Squirrel Squad",
 },
 {
-["time"] = 1755916443,
 ["guild"] = "Squirrel Squad",
+["time"] = 1755916443,
 ["elapsed"] = 212.1240000000034,
-["date"] = "22:34 22/08/25",
-["servertime"] = 1755916443,
-["HEALER"] = {
-["Xue"] = {
-["total"] = 330291006,
-["itemLevel"] = 662.125,
-["classId"] = 5,
-},
-["Bearbuttfan"] = {
-["total"] = 605599732,
-["itemLevel"] = 708.75,
-["classId"] = 11,
-},
-["Dragonnorage-Tichondrius"] = {
-["total"] = 439529572,
-["itemLevel"] = 693.4375,
-["classId"] = 11,
-},
-["Furennsp"] = {
-["total"] = 699227068,
-["itemLevel"] = 699.0625,
-["classId"] = 13,
-},
-},
 ["DAMAGER"] = {
 ["Zettaflame"] = {
 ["total"] = 1146454529,
@@ -2208,11 +2184,54 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["servertime"] = 1755916443,
+["HEALER"] = {
+["Xue"] = {
+["total"] = 330291006,
+["itemLevel"] = 662.125,
+["classId"] = 5,
+},
+["Bearbuttfan"] = {
+["total"] = 605599732,
+["itemLevel"] = 708.75,
+["classId"] = 11,
+},
+["Dragonnorage-Tichondrius"] = {
+["total"] = 439529572,
+["itemLevel"] = 693.4375,
+["classId"] = 11,
+},
+["Furennsp"] = {
+["total"] = 699227068,
+["itemLevel"] = 699.0625,
+["classId"] = 13,
+},
+},
+["date"] = "22:34 22/08/25",
 },
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755918987,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 233.6909999999989,
+["date"] = "23:16 22/08/25",
+["servertime"] = 1755918987,
+["HEALER"] = {
+["Linshiifuren"] = {
+["total"] = 664718300,
+["itemLevel"] = 706.9375,
+["classId"] = 10,
+},
+["Jaysontatum"] = {
+["total"] = 388665389,
+["itemLevel"] = 690.0625,
+["classId"] = 11,
+},
+["Gingermint"] = {
+["total"] = 558798520,
+["itemLevel"] = 705.9375,
+["classId"] = 7,
+},
+},
 ["DAMAGER"] = {
 ["Bigbltches-Tichondrius"] = {
 ["total"] = 1234782388,
@@ -2310,30 +2329,30 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["servertime"] = 1755918987,
+},
+{
+["time"] = 1756342654,
+["guild"] = "Squirrel Squad",
+["elapsed"] = 179.262999999999,
+["date"] = "20:57 27/08/25",
+["servertime"] = 1756342654,
 ["HEALER"] = {
-["Linshiifuren"] = {
-["total"] = 664718300,
-["itemLevel"] = 706.9375,
+["Gingermint"] = {
+["total"] = 669033752,
+["itemLevel"] = 708.125,
+["classId"] = 7,
+},
+["Mistonk"] = {
+["total"] = 753311798,
+["itemLevel"] = 708.8125,
 ["classId"] = 10,
 },
-["Jaysontatum"] = {
-["total"] = 388665389,
-["itemLevel"] = 690.0625,
-["classId"] = 11,
-},
-["Gingermint"] = {
-["total"] = 558798520,
-["itemLevel"] = 705.9375,
+["Shammicate"] = {
+["total"] = 320489533,
+["itemLevel"] = 707.5625,
 ["classId"] = 7,
 },
 },
-["date"] = "23:16 22/08/25",
-},
-{
-["guild"] = "Squirrel Squad",
-["time"] = 1756342654,
-["elapsed"] = 179.262999999999,
 ["DAMAGER"] = {
 ["Xiaoxinlol"] = {
 ["total"] = 1431901263,
@@ -2421,34 +2440,39 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
-["servertime"] = 1756342654,
-["HEALER"] = {
-["Gingermint"] = {
-["total"] = 669033752,
-["itemLevel"] = 708.125,
-["classId"] = 7,
-},
-["Mistonk"] = {
-["total"] = 753311798,
-["itemLevel"] = 708.8125,
-["classId"] = 10,
-},
-["Shammicate"] = {
-["total"] = 320489533,
-["itemLevel"] = 707.5625,
-["classId"] = 7,
-},
-},
-["date"] = "20:57 27/08/25",
 },
 },
 },
 ["mythic"] = {
 [3129] = {
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755750279,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 478.0650000000023,
+["date"] = "00:24 21/08/25",
+["servertime"] = 1755750279,
+["HEALER"] = {
+["Rookiepris"] = {
+["total"] = 2130973688,
+["itemLevel"] = 706.75,
+["classId"] = 5,
+},
+["Gingermint"] = {
+["total"] = 1388472865,
+["itemLevel"] = 702.1875,
+["classId"] = 7,
+},
+["Mistonk"] = {
+["total"] = 1854952528,
+["itemLevel"] = 706.125,
+["classId"] = 10,
+},
+["Milliontown"] = {
+["total"] = 2376103568,
+["itemLevel"] = 704.375,
+["classId"] = 2,
+},
+},
 ["DAMAGER"] = {
 ["Minamage"] = {
 ["total"] = 1498514584,
@@ -2480,10 +2504,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 703.3125,
 ["classId"] = 4,
 },
-["Freshmanpal"] = {
-["total"] = 862931890,
-["itemLevel"] = 706.625,
-["classId"] = 2,
+["Pípi"] = {
+["total"] = 1822606399,
+["itemLevel"] = 705.3125,
+["classId"] = 12,
 },
 ["Maweigavel"] = {
 ["total"] = 1788795305,
@@ -2525,65 +2549,17 @@ DetailsDataStorage = {
 ["itemLevel"] = 707.125,
 ["classId"] = 11,
 },
-["Pípi"] = {
-["total"] = 1822606399,
-["itemLevel"] = 705.3125,
-["classId"] = 12,
-},
-},
-["servertime"] = 1755750279,
-["HEALER"] = {
-["Rookiepris"] = {
-["total"] = 2130973688,
-["itemLevel"] = 706.75,
-["classId"] = 5,
-},
-["Gingermint"] = {
-["total"] = 1388472865,
-["itemLevel"] = 702.1875,
-["classId"] = 7,
-},
-["Mistonk"] = {
-["total"] = 1854952528,
-["itemLevel"] = 706.125,
-["classId"] = 10,
-},
-["Milliontown"] = {
-["total"] = 2376103568,
-["itemLevel"] = 704.375,
+["Freshmanpal"] = {
+["total"] = 862931890,
+["itemLevel"] = 706.625,
 ["classId"] = 2,
 },
 },
-["date"] = "00:24 21/08/25",
 },
 {
-["time"] = 1756350848,
 ["guild"] = "Squirrel Squad",
+["time"] = 1756350848,
 ["elapsed"] = 446.823000000004,
-["date"] = "23:14 27/08/25",
-["servertime"] = 1756350848,
-["HEALER"] = {
-["Víkii"] = {
-["total"] = 1771754572,
-["itemLevel"] = 705.5625,
-["classId"] = 5,
-},
-["Gingermint"] = {
-["total"] = 789703752,
-["itemLevel"] = 710,
-["classId"] = 7,
-},
-["Mistonk"] = {
-["total"] = 2075442346,
-["itemLevel"] = 710,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 2264768119,
-["itemLevel"] = 708.6875,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Minamage"] = {
 ["total"] = 1907031245,
@@ -2610,10 +2586,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 709.1875,
 ["classId"] = 4,
 },
-["Pípi"] = {
-["total"] = 1943604042,
-["itemLevel"] = 709.8125,
-["classId"] = 12,
+["Freshmanpal"] = {
+["total"] = 1005631644,
+["itemLevel"] = 708.8125,
+["classId"] = 2,
 },
 ["Milliontown"] = {
 ["total"] = 1580424158,
@@ -2655,24 +2631,50 @@ DetailsDataStorage = {
 ["itemLevel"] = 709.5,
 ["classId"] = 11,
 },
-["Freshmanpal"] = {
-["total"] = 1005631644,
-["itemLevel"] = 708.8125,
-["classId"] = 2,
+["Pípi"] = {
+["total"] = 1943604042,
+["itemLevel"] = 709.8125,
+["classId"] = 12,
 },
 },
+["servertime"] = 1756350848,
+["HEALER"] = {
+["Víkii"] = {
+["total"] = 1771754572,
+["itemLevel"] = 705.5625,
+["classId"] = 5,
+},
+["Gingermint"] = {
+["total"] = 789703752,
+["itemLevel"] = 710,
+["classId"] = 7,
+},
+["Mistonk"] = {
+["total"] = 2075442346,
+["itemLevel"] = 710,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 2264768119,
+["itemLevel"] = 708.6875,
+["classId"] = 5,
+},
+},
+["date"] = "23:14 27/08/25",
 },
 {
+["date"] = "22:08 03/09/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
-["Tangyuän"] = {
-["total"] = 1517422641,
-["itemLevel"] = 712.9375,
-["classId"] = 6,
-},
 ["Gingermint"] = {
 ["total"] = 1332823837,
 ["itemLevel"] = 710.6875,
 ["classId"] = 7,
+},
+["Tangyuän"] = {
+["total"] = 1517422641,
+["itemLevel"] = 712.9375,
+["classId"] = 6,
 },
 ["Xiaoxinlol"] = {
 ["total"] = 1762991530,
@@ -2699,10 +2701,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 712.3125,
 ["classId"] = 12,
 },
-["Maweigavel"] = {
-["total"] = 1581708304,
-["itemLevel"] = 713.375,
-["classId"] = 1,
+["Aliveevil"] = {
+["total"] = 1769331074,
+["itemLevel"] = 712.5625,
+["classId"] = 3,
 },
 ["Yukarilune"] = {
 ["total"] = 1308014105,
@@ -2739,14 +2741,12 @@ DetailsDataStorage = {
 ["itemLevel"] = 711,
 ["classId"] = 1,
 },
-["Aliveevil"] = {
-["total"] = 1769331074,
-["itemLevel"] = 712.5625,
-["classId"] = 3,
+["Maweigavel"] = {
+["total"] = 1581708304,
+["itemLevel"] = 713.375,
+["classId"] = 1,
 },
 },
-["time"] = 1756951716,
-["date"] = "22:08 03/09/25",
 ["elapsed"] = 345.8440000000001,
 ["servertime"] = 1756951716,
 ["HEALER"] = {
@@ -2771,9 +2771,11 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1756951716,
 },
 {
+["date"] = "21:11 10/09/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1501946920,
@@ -2851,8 +2853,6 @@ DetailsDataStorage = {
 ["classId"] = 7,
 },
 },
-["time"] = 1757553105,
-["date"] = "21:11 10/09/25",
 ["elapsed"] = 332.194,
 ["servertime"] = 1757553107,
 ["HEALER"] = {
@@ -2877,13 +2877,102 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
+["time"] = 1757553105,
+},
+{
+["date"] = "17:24 14/09/25",
 ["guild"] = "Squirrel Squad",
+["DAMAGER"] = {
+["Meowrthus"] = {
+["total"] = 1630121431,
+["itemLevel"] = 707.4375,
+["classId"] = 6,
+},
+["Charlieboi"] = {
+["total"] = 1912430546,
+["itemLevel"] = 712.5625,
+["classId"] = 7,
+},
+["Youthbrew"] = {
+["total"] = 751733674,
+["itemLevel"] = 706.8125,
+["classId"] = 10,
+},
+["Solstica"] = {
+["total"] = 1363663261,
+["itemLevel"] = 709.8125,
+["classId"] = 2,
+},
+["Waludo"] = {
+["total"] = 1586102228,
+["itemLevel"] = 706,
+["classId"] = 4,
+},
+["Xinxiaoxin"] = {
+["total"] = 1987165212,
+["itemLevel"] = 712.125,
+["classId"] = 8,
+},
+["Yuto"] = {
+["total"] = 1776693888,
+["itemLevel"] = 714.5625,
+["classId"] = 11,
+},
+["Mpone"] = {
+["total"] = 1472753374,
+["itemLevel"] = 711.375,
+["classId"] = 7,
+},
+["Maweidoodoo"] = {
+["total"] = 1032024150,
+["itemLevel"] = 705.75,
+["classId"] = 13,
+},
+["Aiwozhonghua"] = {
+["total"] = 1427975269,
+["itemLevel"] = 711.4375,
+["classId"] = 2,
+},
+["Alivevil"] = {
+["total"] = 670434801,
+["itemLevel"] = 704.125,
+["classId"] = 2,
+},
+["Forily"] = {
+["total"] = 1665823553,
+["itemLevel"] = 711,
+["classId"] = 9,
+},
+},
+["elapsed"] = 421.982,
+["servertime"] = 1757885070,
+["HEALER"] = {
+["Annisfia"] = {
+["total"] = 1040537951,
+["itemLevel"] = 705,
+["classId"] = 5,
+},
+["Justdelicate"] = {
+["total"] = 2383268158,
+["itemLevel"] = 711.75,
+["classId"] = 13,
+},
+["Rookiexd"] = {
+["total"] = 1686518020,
+["itemLevel"] = 709,
+["classId"] = 11,
+},
+["Shamanition"] = {
+["total"] = 1557549020,
+["itemLevel"] = 712.625,
+["classId"] = 7,
+},
+},
+["time"] = 1757885065,
 },
 },
 [3130] = {
 {
-["date"] = "21:34 21/08/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 3343711458,
@@ -2961,6 +3050,8 @@ DetailsDataStorage = {
 ["classId"] = 8,
 },
 },
+["time"] = 1755826476,
+["date"] = "21:34 21/08/25",
 ["elapsed"] = 466.6709999999985,
 ["servertime"] = 1755826478,
 ["HEALER"] = {
@@ -2990,41 +3081,12 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["time"] = 1755826476,
+["guild"] = "Squirrel Squad",
 },
 {
-["time"] = 1756352101,
 ["guild"] = "Squirrel Squad",
+["time"] = 1756352101,
 ["elapsed"] = 397.1460000000006,
-["date"] = "23:35 27/08/25",
-["servertime"] = 1756352101,
-["HEALER"] = {
-["Gingermint"] = {
-["total"] = 1703591817,
-["itemLevel"] = 710,
-["classId"] = 7,
-},
-["Mistonk"] = {
-["total"] = 1856067064,
-["itemLevel"] = 710,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 1912613987,
-["itemLevel"] = 708.6875,
-["classId"] = 5,
-},
-["Víkii"] = {
-["total"] = 1454770721,
-["itemLevel"] = 705.5625,
-["classId"] = 5,
-},
-["Milliontown"] = {
-["total"] = 2113465541,
-["itemLevel"] = 708.6875,
-["classId"] = 2,
-},
-},
 ["DAMAGER"] = {
 ["Minamage"] = {
 ["total"] = 2715414797,
@@ -3097,8 +3159,39 @@ DetailsDataStorage = {
 ["classId"] = 12,
 },
 },
+["servertime"] = 1756352101,
+["HEALER"] = {
+["Gingermint"] = {
+["total"] = 1703591817,
+["itemLevel"] = 710,
+["classId"] = 7,
+},
+["Mistonk"] = {
+["total"] = 1856067064,
+["itemLevel"] = 710,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 1912613987,
+["itemLevel"] = 708.6875,
+["classId"] = 5,
+},
+["Víkii"] = {
+["total"] = 1454770721,
+["itemLevel"] = 705.5625,
+["classId"] = 5,
+},
+["Milliontown"] = {
+["total"] = 2113465541,
+["itemLevel"] = 708.6875,
+["classId"] = 2,
+},
+},
+["date"] = "23:35 27/08/25",
 },
 {
+["date"] = "22:26 03/09/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 2473526722,
@@ -3135,35 +3228,35 @@ DetailsDataStorage = {
 ["itemLevel"] = 712.3125,
 ["classId"] = 12,
 },
-["Maweigavel"] = {
-["total"] = 2797046963,
-["itemLevel"] = 713.375,
-["classId"] = 1,
-},
-["Amourpur-Kil'jaeden"] = {
-["total"] = 1786218729,
-["itemLevel"] = 707.8125,
-["classId"] = 11,
+["Aliveevil"] = {
+["total"] = 2725564378,
+["itemLevel"] = 712.5625,
+["classId"] = 3,
 },
 ["Aiwozhonghua"] = {
 ["total"] = 2259662474,
 ["itemLevel"] = 709.375,
 ["classId"] = 2,
 },
-["Yuto"] = {
-["total"] = 2001133794,
-["itemLevel"] = 712.9333333333333,
+["Amourpur-Kil'jaeden"] = {
+["total"] = 1786218729,
+["itemLevel"] = 707.8125,
 ["classId"] = 11,
+},
+["Littledotdot"] = {
+["total"] = 1676703090,
+["itemLevel"] = 709.0625,
+["classId"] = 9,
 },
 ["Alexdrotha"] = {
 ["total"] = 2165172497,
 ["itemLevel"] = 706.0625,
 ["classId"] = 2,
 },
-["Littledotdot"] = {
-["total"] = 1676703090,
-["itemLevel"] = 709.0625,
-["classId"] = 9,
+["Yuto"] = {
+["total"] = 2001133794,
+["itemLevel"] = 712.9333333333333,
+["classId"] = 11,
 },
 ["Meowbobo"] = {
 ["total"] = 2165618093,
@@ -3175,14 +3268,12 @@ DetailsDataStorage = {
 ["itemLevel"] = 711.5625,
 ["classId"] = 1,
 },
-["Aliveevil"] = {
-["total"] = 2725564378,
-["itemLevel"] = 712.5625,
-["classId"] = 3,
+["Maweigavel"] = {
+["total"] = 2797046963,
+["itemLevel"] = 713.375,
+["classId"] = 1,
 },
 },
-["time"] = 1756952764,
-["date"] = "22:26 03/09/25",
 ["elapsed"] = 380.4560000000001,
 ["servertime"] = 1756952764,
 ["HEALER"] = {
@@ -3207,14 +3298,129 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
+["time"] = 1756952764,
+},
+{
+["date"] = "17:48 14/09/25",
 ["guild"] = "Squirrel Squad",
+["DAMAGER"] = {
+["Meowrthus"] = {
+["total"] = 2752162489,
+["itemLevel"] = 707.4375,
+["classId"] = 6,
+},
+["Youthbrew"] = {
+["total"] = 1400157391,
+["itemLevel"] = 706.8125,
+["classId"] = 10,
+},
+["Solstica"] = {
+["total"] = 2478249783,
+["itemLevel"] = 709.8125,
+["classId"] = 2,
+},
+["Waludo"] = {
+["total"] = 3279129182,
+["itemLevel"] = 706,
+["classId"] = 4,
+},
+["Xinxiaoxin"] = {
+["total"] = 3472912330,
+["itemLevel"] = 712.9375,
+["classId"] = 8,
+},
+["Yuto"] = {
+["total"] = 2395939086,
+["itemLevel"] = 714.5625,
+["classId"] = 11,
+},
+["Mpone"] = {
+["total"] = 2686691231,
+["itemLevel"] = 711.375,
+["classId"] = 7,
+},
+["Maweidoodoo"] = {
+["total"] = 2641093291,
+["itemLevel"] = 705.75,
+["classId"] = 13,
+},
+["Alivevil"] = {
+["total"] = 1324953051,
+["itemLevel"] = 704.125,
+["classId"] = 2,
+},
+["Aiwozhonghua"] = {
+["total"] = 2741719517,
+["itemLevel"] = 711.4375,
+["classId"] = 2,
+},
+["Forily"] = {
+["total"] = 2663739892,
+["itemLevel"] = 711,
+["classId"] = 9,
+},
+},
+["elapsed"] = 426.1380000000008,
+["servertime"] = 1757886533,
+["HEALER"] = {
+["Charlieboi"] = {
+["total"] = 1658116533,
+["itemLevel"] = 712.5625,
+["classId"] = 7,
+},
+["Rookiexd"] = {
+["total"] = 2007977404,
+["itemLevel"] = 709,
+["classId"] = 11,
+},
+["Annisfia"] = {
+["total"] = 1472105761,
+["itemLevel"] = 705,
+["classId"] = 5,
+},
+["Justdelicate"] = {
+["total"] = 2554588145,
+["itemLevel"] = 711.75,
+["classId"] = 13,
+},
+["Shamanition"] = {
+["total"] = 1710801443,
+["itemLevel"] = 712.625,
+["classId"] = 7,
+},
+},
+["time"] = 1757886528,
 },
 },
 [3131] = {
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755834639,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 447.0220000000008,
+["date"] = "23:50 21/08/25",
+["servertime"] = 1755834642,
+["HEALER"] = {
+["Rookiepris"] = {
+["total"] = 2227441184,
+["itemLevel"] = 705.5,
+["classId"] = 5,
+},
+["Gingermint"] = {
+["total"] = 1898086355,
+["itemLevel"] = 705.1875,
+["classId"] = 7,
+},
+["Mistonk"] = {
+["total"] = 2044152243,
+["itemLevel"] = 704.875,
+["classId"] = 10,
+},
+["Milliontown"] = {
+["total"] = 2234795300,
+["itemLevel"] = 704.375,
+["classId"] = 2,
+},
+},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1969354544,
@@ -3246,10 +3452,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 704.5,
 ["classId"] = 4,
 },
-["Freshmanpal"] = {
-["total"] = 1116713726,
-["itemLevel"] = 706.625,
-["classId"] = 2,
+["Pípi"] = {
+["total"] = 2199652350,
+["itemLevel"] = 705.9375,
+["classId"] = 12,
 },
 ["Maweigavel"] = {
 ["total"] = 2106747456,
@@ -3291,65 +3497,17 @@ DetailsDataStorage = {
 ["itemLevel"] = 704.3125,
 ["classId"] = 3,
 },
-["Pípi"] = {
-["total"] = 2199652350,
-["itemLevel"] = 705.9375,
-["classId"] = 12,
-},
-},
-["servertime"] = 1755834642,
-["HEALER"] = {
-["Rookiepris"] = {
-["total"] = 2227441184,
-["itemLevel"] = 705.5,
-["classId"] = 5,
-},
-["Gingermint"] = {
-["total"] = 1898086355,
-["itemLevel"] = 705.1875,
-["classId"] = 7,
-},
-["Mistonk"] = {
-["total"] = 2044152243,
-["itemLevel"] = 704.875,
-["classId"] = 10,
-},
-["Milliontown"] = {
-["total"] = 2234795300,
-["itemLevel"] = 704.375,
+["Freshmanpal"] = {
+["total"] = 1116713726,
+["itemLevel"] = 706.625,
 ["classId"] = 2,
 },
 },
-["date"] = "23:50 21/08/25",
 },
 {
-["time"] = 1756353959,
 ["guild"] = "Squirrel Squad",
+["time"] = 1756353959,
 ["elapsed"] = 447.2570000000051,
-["date"] = "00:05 28/08/25",
-["servertime"] = 1756353959,
-["HEALER"] = {
-["Rookiepris"] = {
-["total"] = 2156677604,
-["itemLevel"] = 708.6875,
-["classId"] = 5,
-},
-["Gingermint"] = {
-["total"] = 2014705789,
-["itemLevel"] = 710,
-["classId"] = 7,
-},
-["Mistonk"] = {
-["total"] = 2162287648,
-["itemLevel"] = 710,
-["classId"] = 10,
-},
-["Milliontown"] = {
-["total"] = 2242068902,
-["itemLevel"] = 708.6875,
-["classId"] = 2,
-},
-},
 ["DAMAGER"] = {
 ["Minamage"] = {
 ["total"] = 912232841,
@@ -3376,10 +3534,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 709.375,
 ["classId"] = 4,
 },
-["Pípi"] = {
-["total"] = 1418596944,
-["itemLevel"] = 709.8125,
-["classId"] = 12,
+["Freshmanpal"] = {
+["total"] = 1161856686,
+["itemLevel"] = 708.8125,
+["classId"] = 2,
 },
 ["Maweigavel"] = {
 ["total"] = 2016858847,
@@ -3421,14 +3579,40 @@ DetailsDataStorage = {
 ["itemLevel"] = 709.5,
 ["classId"] = 11,
 },
-["Freshmanpal"] = {
-["total"] = 1161856686,
-["itemLevel"] = 708.8125,
+["Pípi"] = {
+["total"] = 1418596944,
+["itemLevel"] = 709.8125,
+["classId"] = 12,
+},
+},
+["servertime"] = 1756353959,
+["HEALER"] = {
+["Rookiepris"] = {
+["total"] = 2156677604,
+["itemLevel"] = 708.6875,
+["classId"] = 5,
+},
+["Gingermint"] = {
+["total"] = 2014705789,
+["itemLevel"] = 710,
+["classId"] = 7,
+},
+["Mistonk"] = {
+["total"] = 2162287648,
+["itemLevel"] = 710,
+["classId"] = 10,
+},
+["Milliontown"] = {
+["total"] = 2242068902,
+["itemLevel"] = 708.6875,
 ["classId"] = 2,
 },
 },
+["date"] = "00:05 28/08/25",
 },
 {
+["date"] = "22:57 03/09/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 2060365050,
@@ -3445,10 +3629,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 707.3125,
 ["classId"] = 8,
 },
-["Aiwozhonghua"] = {
-["total"] = 1535711828,
-["itemLevel"] = 709.375,
-["classId"] = 2,
+["Piggywar"] = {
+["total"] = 1146656284,
+["itemLevel"] = 711,
+["classId"] = 1,
 },
 ["Yuto"] = {
 ["total"] = 1757954559,
@@ -3465,20 +3649,20 @@ DetailsDataStorage = {
 ["itemLevel"] = 712.3125,
 ["classId"] = 12,
 },
-["Maweigavel"] = {
-["total"] = 2167057592,
-["itemLevel"] = 713.375,
-["classId"] = 1,
+["Aliveevil"] = {
+["total"] = 1778304934,
+["itemLevel"] = 711.625,
+["classId"] = 3,
 },
 ["Yukarilune"] = {
 ["total"] = 1733523342,
 ["itemLevel"] = 710.4375,
 ["classId"] = 6,
 },
-["Piggywar"] = {
-["total"] = 1146656284,
-["itemLevel"] = 711,
-["classId"] = 1,
+["Aiwozhonghua"] = {
+["total"] = 1535711828,
+["itemLevel"] = 709.375,
+["classId"] = 2,
 },
 ["Littledotdot"] = {
 ["total"] = 2134932580,
@@ -3505,14 +3689,12 @@ DetailsDataStorage = {
 ["itemLevel"] = 711.5625,
 ["classId"] = 1,
 },
-["Aliveevil"] = {
-["total"] = 1778304934,
-["itemLevel"] = 711.625,
-["classId"] = 3,
+["Maweigavel"] = {
+["total"] = 2167057592,
+["itemLevel"] = 713.375,
+["classId"] = 1,
 },
 },
-["time"] = 1756954633,
-["date"] = "22:57 03/09/25",
 ["elapsed"] = 389.9860000000008,
 ["servertime"] = 1756954633,
 ["HEALER"] = {
@@ -3537,9 +3719,11 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1756954633,
 },
 {
+["date"] = "22:01 10/09/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Minamage"] = {
 ["total"] = 2187731084,
@@ -3561,20 +3745,20 @@ DetailsDataStorage = {
 ["itemLevel"] = 711.375,
 ["classId"] = 6,
 },
-["Maweigavel"] = {
-["total"] = 2058329969,
-["itemLevel"] = 715.5625,
-["classId"] = 1,
+["Aliveevil"] = {
+["total"] = 1929735575,
+["itemLevel"] = 711.8125,
+["classId"] = 3,
 },
 ["Pípi"] = {
 ["total"] = 2028150040,
 ["itemLevel"] = 714.1875,
 ["classId"] = 12,
 },
-["Aliveevil"] = {
-["total"] = 1929735575,
-["itemLevel"] = 711.8125,
-["classId"] = 3,
+["Maweigavel"] = {
+["total"] = 2058329969,
+["itemLevel"] = 715.5625,
+["classId"] = 1,
 },
 ["Owlalforms-Tichondrius"] = {
 ["total"] = 1957054811,
@@ -3617,8 +3801,6 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
-["time"] = 1757556096,
-["date"] = "22:01 10/09/25",
 ["elapsed"] = 370.6749999999993,
 ["servertime"] = 1757556098,
 ["HEALER"] = {
@@ -3643,11 +3825,13 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1757556096,
 },
 },
 [3132] = {
 {
+["date"] = "23:40 28/08/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Minamage"] = {
 ["total"] = 2856354920,
@@ -3669,25 +3853,25 @@ DetailsDataStorage = {
 ["itemLevel"] = 709.875,
 ["classId"] = 5,
 },
-["Maweigavel"] = {
-["total"] = 2636297345,
-["itemLevel"] = 711.375,
-["classId"] = 1,
+["Aliveevil"] = {
+["total"] = 2487390684,
+["itemLevel"] = 710,
+["classId"] = 3,
 },
 ["Mejojod"] = {
 ["total"] = 2262713781,
 ["itemLevel"] = 710,
 ["classId"] = 4,
 },
-["Pípi"] = {
-["total"] = 2647112444,
-["itemLevel"] = 709.625,
-["classId"] = 12,
+["Freshmanpal"] = {
+["total"] = 1365604488,
+["itemLevel"] = 710.375,
+["classId"] = 2,
 },
-["Aliveevil"] = {
-["total"] = 2487390684,
-["itemLevel"] = 710,
-["classId"] = 3,
+["Maweigavel"] = {
+["total"] = 2636297345,
+["itemLevel"] = 711.375,
+["classId"] = 1,
 },
 ["Yukarilune"] = {
 ["total"] = 2854267570,
@@ -3724,14 +3908,12 @@ DetailsDataStorage = {
 ["itemLevel"] = 708.875,
 ["classId"] = 9,
 },
-["Freshmanpal"] = {
-["total"] = 1365604488,
-["itemLevel"] = 710.375,
-["classId"] = 2,
+["Pípi"] = {
+["total"] = 2647112444,
+["itemLevel"] = 709.625,
+["classId"] = 12,
 },
 },
-["time"] = 1756438811,
-["date"] = "23:40 28/08/25",
 ["elapsed"] = 403.3970000000008,
 ["servertime"] = 1756438812,
 ["HEALER"] = {
@@ -3751,9 +3933,11 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1756438811,
 },
 {
+["date"] = "00:30 04/09/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 2992951827,
@@ -3841,8 +4025,6 @@ DetailsDataStorage = {
 ["classId"] = 6,
 },
 },
-["time"] = 1756960246,
-["date"] = "00:30 04/09/25",
 ["elapsed"] = 430.8310000000001,
 ["servertime"] = 1756960246,
 ["HEALER"] = {
@@ -3862,9 +4044,11 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1756960246,
 },
 {
+["date"] = "22:38 10/09/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 2576729131,
@@ -3952,8 +4136,6 @@ DetailsDataStorage = {
 ["classId"] = 3,
 },
 },
-["time"] = 1757558280,
-["date"] = "22:38 10/09/25",
 ["elapsed"] = 429.3199999999997,
 ["servertime"] = 1757558282,
 ["HEALER"] = {
@@ -3973,14 +4155,38 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1757558280,
 },
 },
 [3133] = {
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1756688391,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 315.4349999999977,
+["date"] = "20:59 31/08/25",
+["servertime"] = 1756688391,
+["HEALER"] = {
+["Rookiepris"] = {
+["total"] = 1385018443,
+["itemLevel"] = 711.125,
+["classId"] = 5,
+},
+["Gingermint"] = {
+["total"] = 1349849261,
+["itemLevel"] = 710.9375,
+["classId"] = 7,
+},
+["Mistonk"] = {
+["total"] = 1404394890,
+["itemLevel"] = 710.375,
+["classId"] = 10,
+},
+["Milliontown"] = {
+["total"] = 1355851254,
+["itemLevel"] = 709.5,
+["classId"] = 2,
+},
+},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1294812779,
@@ -4053,35 +4259,35 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
-["servertime"] = 1756688391,
+},
+{
+["time"] = 1757037612,
+["guild"] = "Squirrel Squad",
+["elapsed"] = 310.6550000000007,
+["date"] = "22:00 04/09/25",
+["servertime"] = 1757037615,
 ["HEALER"] = {
 ["Rookiepris"] = {
-["total"] = 1385018443,
-["itemLevel"] = 711.125,
+["total"] = 1400677042,
+["itemLevel"] = 712.3125,
 ["classId"] = 5,
 },
 ["Gingermint"] = {
-["total"] = 1349849261,
-["itemLevel"] = 710.9375,
+["total"] = 1619431254,
+["itemLevel"] = 711.9375,
 ["classId"] = 7,
 },
 ["Mistonk"] = {
-["total"] = 1404394890,
-["itemLevel"] = 710.375,
+["total"] = 1568006268,
+["itemLevel"] = 712.25,
 ["classId"] = 10,
 },
 ["Milliontown"] = {
-["total"] = 1355851254,
-["itemLevel"] = 709.5,
+["total"] = 1298308585,
+["itemLevel"] = 711.3125,
 ["classId"] = 2,
 },
 },
-["date"] = "20:59 31/08/25",
-},
-{
-["guild"] = "Squirrel Squad",
-["time"] = 1757037612,
-["elapsed"] = 310.6550000000007,
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1417393067,
@@ -4098,10 +4304,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 711.75,
 ["classId"] = 8,
 },
-["Aiwozhonghua"] = {
-["total"] = 1392060803,
-["itemLevel"] = 709.8125,
-["classId"] = 2,
+["Piggywar"] = {
+["total"] = 930876096,
+["itemLevel"] = 711.5625,
+["classId"] = 1,
 },
 ["Yuto"] = {
 ["total"] = 1411310406,
@@ -4118,20 +4324,20 @@ DetailsDataStorage = {
 ["itemLevel"] = 712.9375,
 ["classId"] = 12,
 },
-["Maweigavel"] = {
-["total"] = 1624731265,
-["itemLevel"] = 714,
-["classId"] = 1,
+["Aliveevil"] = {
+["total"] = 1434439599,
+["itemLevel"] = 712.5625,
+["classId"] = 3,
 },
 ["Yukarilune"] = {
 ["total"] = 1436345315,
 ["itemLevel"] = 711.0625,
 ["classId"] = 6,
 },
-["Piggywar"] = {
-["total"] = 930876096,
-["itemLevel"] = 711.5625,
-["classId"] = 1,
+["Aiwozhonghua"] = {
+["total"] = 1392060803,
+["itemLevel"] = 709.8125,
+["classId"] = 2,
 },
 ["Littledotdot"] = {
 ["total"] = 1537894738,
@@ -4158,72 +4364,19 @@ DetailsDataStorage = {
 ["itemLevel"] = 711.9375,
 ["classId"] = 1,
 },
-["Aliveevil"] = {
-["total"] = 1434439599,
-["itemLevel"] = 712.5625,
-["classId"] = 3,
+["Maweigavel"] = {
+["total"] = 1624731265,
+["itemLevel"] = 714,
+["classId"] = 1,
 },
 },
-["servertime"] = 1757037615,
-["HEALER"] = {
-["Rookiepris"] = {
-["total"] = 1400677042,
-["itemLevel"] = 712.3125,
-["classId"] = 5,
-},
-["Gingermint"] = {
-["total"] = 1619431254,
-["itemLevel"] = 711.9375,
-["classId"] = 7,
-},
-["Mistonk"] = {
-["total"] = 1568006268,
-["itemLevel"] = 712.25,
-["classId"] = 10,
-},
-["Milliontown"] = {
-["total"] = 1298308585,
-["itemLevel"] = 711.3125,
-["classId"] = 2,
-},
-},
-["date"] = "22:00 04/09/25",
 },
 },
 [3122] = {
 {
-["time"] = 1757640692,
 ["guild"] = "Squirrel Squad",
+["time"] = 1757640692,
 ["elapsed"] = 445.739,
-["date"] = "21:31 11/09/25",
-["servertime"] = 1757640695,
-["HEALER"] = {
-["Gingermint"] = {
-["total"] = 2427522635,
-["itemLevel"] = 713.5625,
-["classId"] = 7,
-},
-["Mistonk"] = {
-["total"] = 2464788218,
-["itemLevel"] = 714,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 2047575327,
-["itemLevel"] = 713.25,
-["classId"] = 5,
-},
-["Kuroblackev"] = {
-["total"] = 1995480920,
-["itemLevel"] = 713.3125,
-["classId"] = 13,
-},
-["Milliontown"] = {
-["total"] = 2639833889,
-["itemLevel"] = 712.875,
-["classId"] = 2,
-},
-},
 ["DAMAGER"] = {
 ["Gingertea"] = {
 ["total"] = 2479636048,
@@ -4240,10 +4393,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 715.375,
 ["classId"] = 8,
 },
-["Owlalforms-Tichondrius"] = {
-["total"] = 2898497562,
-["itemLevel"] = 710.5,
-["classId"] = 11,
+["Yukarilune"] = {
+["total"] = 2990068358,
+["itemLevel"] = 714,
+["classId"] = 6,
 },
 ["Mejojod"] = {
 ["total"] = 1749755723,
@@ -4255,15 +4408,15 @@ DetailsDataStorage = {
 ["itemLevel"] = 714.1875,
 ["classId"] = 12,
 },
-["Aliveevil"] = {
-["total"] = 3535145324,
-["itemLevel"] = 714.5625,
-["classId"] = 3,
+["Maweigavel"] = {
+["total"] = 3073309723,
+["itemLevel"] = 715.5625,
+["classId"] = 1,
 },
-["Yukarilune"] = {
-["total"] = 2990068358,
-["itemLevel"] = 714,
-["classId"] = 6,
+["Owlalforms-Tichondrius"] = {
+["total"] = 2898497562,
+["itemLevel"] = 710.5,
+["classId"] = 11,
 },
 ["Piggywar"] = {
 ["total"] = 1892152904,
@@ -4295,12 +4448,41 @@ DetailsDataStorage = {
 ["itemLevel"] = 711.5,
 ["classId"] = 9,
 },
-["Maweigavel"] = {
-["total"] = 3073309723,
-["itemLevel"] = 715.5625,
-["classId"] = 1,
+["Aliveevil"] = {
+["total"] = 3535145324,
+["itemLevel"] = 714.5625,
+["classId"] = 3,
 },
 },
+["servertime"] = 1757640695,
+["HEALER"] = {
+["Gingermint"] = {
+["total"] = 2427522635,
+["itemLevel"] = 713.5625,
+["classId"] = 7,
+},
+["Mistonk"] = {
+["total"] = 2464788218,
+["itemLevel"] = 714,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 2047575327,
+["itemLevel"] = 713.25,
+["classId"] = 5,
+},
+["Kuroblackev"] = {
+["total"] = 1995480920,
+["itemLevel"] = 713.3125,
+["classId"] = 13,
+},
+["Milliontown"] = {
+["total"] = 2639833889,
+["itemLevel"] = 712.875,
+["classId"] = 2,
+},
+},
+["date"] = "21:31 11/09/25",
 },
 },
 },
@@ -4314,9 +4496,9 @@ DetailsDataStorage = {
 ["wipes"] = 1,
 ["kills"] = 0,
 ["dps_best"] = 0,
-["dps_best_when"] = 0,
-["time_fasterkill_when"] = 0,
 ["dps_best_raid_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_when"] = 0,
 ["dps_best_raid"] = 0,
 },
 [3134] = {
@@ -4327,8 +4509,8 @@ DetailsDataStorage = {
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_raid_when"] = 0,
 ["dps_best_when"] = 0,
+["dps_best_raid_when"] = 0,
 },
 },
 [3129] = {
@@ -4340,18 +4522,18 @@ DetailsDataStorage = {
 ["dps_best"] = 4623490.096436825,
 ["dps_best_raid"] = 68899177.26190364,
 ["time_fasterkill_when"] = 1755735821,
-["dps_best_when"] = 1755735821,
 ["dps_best_raid_when"] = 1755735821,
+["dps_best_when"] = 1755735821,
 },
 ["mythic"] = {
-["time_incombat"] = 1602.926000000006,
+["time_incombat"] = 2024.908000000006,
 ["time_fasterkill"] = 332.194,
 ["wipes"] = 0,
-["kills"] = 4,
+["kills"] = 5,
 ["dps_best"] = 4763631.387099403,
-["dps_best_raid_when"] = 1757553105,
-["time_fasterkill_when"] = 1757553105,
 ["dps_best_when"] = 1757553105,
+["time_fasterkill_when"] = 1757553105,
+["dps_best_raid_when"] = 1757553105,
 ["dps_best_raid"] = 65743397.35214966,
 },
 ["heroic"] = {
@@ -4360,9 +4542,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 3,
 ["dps_best"] = 4859258.663759777,
-["dps_best_raid_when"] = 1757641684,
-["time_fasterkill_when"] = 1755740511,
 ["dps_best_when"] = 1756343373,
+["time_fasterkill_when"] = 1755740511,
+["dps_best_raid_when"] = 1757641684,
 ["dps_best_raid"] = 75712070.16561444,
 },
 ["raidfinder"] = {
@@ -4373,21 +4555,21 @@ DetailsDataStorage = {
 ["dps_best"] = 3704361.824057096,
 ["dps_best_raid"] = 37004088.26539073,
 ["time_fasterkill_when"] = 1755673924,
-["dps_best_raid_when"] = 1755673924,
 ["dps_best_when"] = 1755673924,
+["dps_best_raid_when"] = 1755673924,
 },
 },
 [3122] = {
 ["heroic"] = {
-["time_incombat"] = 1525.244999999999,
+["time_incombat"] = 1802.195999999999,
 ["time_fasterkill"] = 274.5480000000025,
 ["wipes"] = 0,
-["kills"] = 5,
-["dps_best"] = 7423444.800870467,
-["dps_best_raid_when"] = 1757477855,
+["kills"] = 6,
+["dps_best"] = 7741349.318137866,
+["dps_best_when"] = 1758073284,
 ["time_fasterkill_when"] = 1757477855,
-["dps_best_when"] = 1756949517,
-["dps_best_raid"] = 136917136.5553552,
+["dps_best_raid_when"] = 1758073284,
+["dps_best_raid"] = 153190323.8659546,
 },
 ["mythic"] = {
 ["time_incombat"] = 445.739,
@@ -4395,9 +4577,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 1,
 ["dps_best"] = 6894863.862046197,
-["dps_best_when"] = 1757640692,
-["time_fasterkill_when"] = 1757640692,
 ["dps_best_raid_when"] = 1757640692,
+["time_fasterkill_when"] = 1757640692,
+["dps_best_when"] = 1757640692,
 ["dps_best_raid"] = 96899685.526732,
 },
 ["normal"] = {
@@ -4408,8 +4590,8 @@ DetailsDataStorage = {
 ["dps_best"] = 6370984.345833892,
 ["dps_best_raid"] = 123247022.269991,
 ["time_fasterkill_when"] = 1756342654,
-["dps_best_raid_when"] = 1755916443,
 ["dps_best_when"] = 1755738069,
+["dps_best_raid_when"] = 1755916443,
 },
 },
 [3130] = {
@@ -4419,21 +4601,21 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 3,
 ["dps_best"] = 7202671.617203438,
-["dps_best_raid_when"] = 1757643269,
-["time_fasterkill_when"] = 1756344644,
 ["dps_best_when"] = 1755741883,
+["time_fasterkill_when"] = 1756344644,
+["dps_best_raid_when"] = 1757643269,
 ["dps_best_raid"] = 97923089.09314989,
 },
 ["mythic"] = {
-["time_incombat"] = 1582.222999999999,
+["time_incombat"] = 2008.361,
 ["time_fasterkill"] = 337.9500000000003,
 ["wipes"] = 0,
-["kills"] = 4,
+["kills"] = 5,
 ["dps_best"] = 7551280.591823471,
 ["dps_best_raid"] = 104164415.7981949,
 ["time_fasterkill_when"] = 1757554170,
-["dps_best_raid_when"] = 1757554170,
 ["dps_best_when"] = 1757554170,
+["dps_best_raid_when"] = 1757554170,
 },
 ["normal"] = {
 ["time_incombat"] = 299.7710000000006,
@@ -4441,9 +4623,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 2,
 ["dps_best"] = 6129875.824181585,
-["dps_best_when"] = 1755736922,
-["time_fasterkill_when"] = 1756341135,
 ["dps_best_raid_when"] = 1755736922,
+["time_fasterkill_when"] = 1756341135,
+["dps_best_when"] = 1755736922,
 ["dps_best_raid"] = 91001812.14613155,
 },
 ["raidfinder"] = {
@@ -4452,22 +4634,33 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 1,
 ["dps_best"] = 2778575.005405368,
-["dps_best_when"] = 1755935251,
-["time_fasterkill_when"] = 1755935251,
 ["dps_best_raid_when"] = 1755935251,
+["time_fasterkill_when"] = 1755935251,
+["dps_best_when"] = 1755935251,
 ["dps_best_raid"] = 35550797.3206136,
 },
 },
 ["heroic"] = {
-[3135] = {
+[3133] = {
 ["time_incombat"] = 0,
 ["time_fasterkill"] = 0,
-["wipes"] = 5,
+["wipes"] = 1,
 ["kills"] = 0,
 ["dps_best"] = 0,
 ["dps_best_raid_when"] = 0,
 ["time_fasterkill_when"] = 0,
 ["dps_best_when"] = 0,
+["dps_best_raid"] = 0,
+},
+[3135] = {
+["time_incombat"] = 0,
+["time_fasterkill"] = 0,
+["wipes"] = 7,
+["kills"] = 0,
+["dps_best"] = 0,
+["dps_best_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_raid_when"] = 0,
 ["dps_best_raid"] = 0,
 },
 [3134] = {
@@ -4476,9 +4669,9 @@ DetailsDataStorage = {
 ["wipes"] = 3,
 ["kills"] = 0,
 ["dps_best"] = 0,
-["dps_best_when"] = 0,
-["time_fasterkill_when"] = 0,
 ["dps_best_raid_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_when"] = 0,
 ["dps_best_raid"] = 0,
 },
 },
@@ -4489,9 +4682,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 4,
 ["dps_best"] = 5200565.826423083,
-["dps_best_when"] = 1755736373,
-["time_fasterkill_when"] = 1756341701,
 ["dps_best_raid_when"] = 1755915358,
+["time_fasterkill_when"] = 1756341701,
+["dps_best_when"] = 1755736373,
 ["dps_best_raid"] = 92266544.32191995,
 },
 ["mythic"] = {
@@ -4500,21 +4693,21 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 4,
 ["dps_best"] = 5556757.401553827,
-["dps_best_raid_when"] = 1757556096,
-["time_fasterkill_when"] = 1757556096,
 ["dps_best_when"] = 1756954633,
+["time_fasterkill_when"] = 1757556096,
+["dps_best_raid_when"] = 1757556096,
 ["dps_best_raid"] = 76748920.15916923,
 },
 ["heroic"] = {
-["time_incombat"] = 1089.692999999999,
-["time_fasterkill"] = 197.1589999999997,
+["time_incombat"] = 1285.995999999999,
+["time_fasterkill"] = 196.3029999999999,
 ["wipes"] = 0,
-["kills"] = 5,
-["dps_best"] = 5949276.912169362,
-["dps_best_raid_when"] = 1757476432,
-["time_fasterkill_when"] = 1757476432,
-["dps_best_when"] = 1756343998,
-["dps_best_raid"] = 101442717.7760084,
+["kills"] = 6,
+["dps_best"] = 6320513.318708546,
+["dps_best_when"] = 1758071886,
+["time_fasterkill_when"] = 1758071886,
+["dps_best_raid_when"] = 1758071886,
+["dps_best_raid"] = 101704437.4207221,
 },
 ["raidfinder"] = {
 ["time_incombat"] = 489.5839999999953,
@@ -4524,20 +4717,20 @@ DetailsDataStorage = {
 ["dps_best"] = 4780259.263746621,
 ["dps_best_raid"] = 43367481.35170541,
 ["time_fasterkill_when"] = 1755674452,
-["dps_best_raid_when"] = 1755674452,
 ["dps_best_when"] = 1755674452,
+["dps_best_raid_when"] = 1755674452,
 },
 },
 [3132] = {
 ["heroic"] = {
-["time_incombat"] = 1455.278999999988,
+["time_incombat"] = 1686.510999999988,
 ["time_fasterkill"] = 224.7459999999992,
 ["wipes"] = 0,
-["kills"] = 5,
-["dps_best"] = 5647192.388505575,
-["dps_best_raid_when"] = 1757477191,
+["kills"] = 6,
+["dps_best"] = 6833578.06013525,
+["dps_best_when"] = 1758072681,
 ["time_fasterkill_when"] = 1757477191,
-["dps_best_when"] = 1756345454,
+["dps_best_raid_when"] = 1757477191,
 ["dps_best_raid"] = 118090046.0831343,
 },
 ["normal"] = {
@@ -4548,8 +4741,8 @@ DetailsDataStorage = {
 ["dps_best"] = 5148839.179055377,
 ["dps_best_raid"] = 92844867.00331816,
 ["time_fasterkill_when"] = 1756342221,
-["dps_best_raid_when"] = 1755915992,
 ["dps_best_when"] = 1755737612,
+["dps_best_raid_when"] = 1755915992,
 },
 ["mythic"] = {
 ["time_incombat"] = 1263.548000000001,
@@ -4559,21 +4752,21 @@ DetailsDataStorage = {
 ["dps_best"] = 6535242.812914465,
 ["dps_best_raid"] = 104216719.2790227,
 ["time_fasterkill_when"] = 1756438811,
-["dps_best_when"] = 1756438811,
 ["dps_best_raid_when"] = 1756438811,
+["dps_best_when"] = 1756438811,
 },
 },
 [3133] = {
 ["heroic"] = {
-["time_incombat"] = 1119.616,
+["time_incombat"] = 1322.887,
 ["time_fasterkill"] = 200.6670000000013,
 ["wipes"] = 0,
-["kills"] = 5,
-["dps_best"] = 5224594.626583079,
-["dps_best_raid_when"] = 1757478335,
+["kills"] = 6,
+["dps_best"] = 5610792.985729679,
+["dps_best_when"] = 1758074086,
 ["time_fasterkill_when"] = 1757478335,
-["dps_best_when"] = 1756949998,
-["dps_best_raid"] = 96746579.8113286,
+["dps_best_raid_when"] = 1758074086,
+["dps_best_raid"] = 110975109.7500383,
 },
 ["mythic"] = {
 ["time_incombat"] = 626.0899999999983,
@@ -4581,9 +4774,9 @@ DetailsDataStorage = {
 ["wipes"] = 0,
 ["kills"] = 2,
 ["dps_best"] = 5230018.074729847,
-["dps_best_raid_when"] = 1757037612,
-["time_fasterkill_when"] = 1757037612,
 ["dps_best_when"] = 1757037612,
+["time_fasterkill_when"] = 1757037612,
+["dps_best_raid_when"] = 1757037612,
 ["dps_best_raid"] = 70150022.45255977,
 },
 ["normal"] = {
@@ -4594,8 +4787,8 @@ DetailsDataStorage = {
 ["dps_best"] = 5339457.3487268,
 ["dps_best_raid"] = 87208466.55751258,
 ["time_fasterkill_when"] = 1755738433,
-["dps_best_raid_when"] = 1755916846,
 ["dps_best_when"] = 1755738433,
+["dps_best_raid_when"] = 1755916846,
 },
 },
 [3134] = {
@@ -4607,19 +4800,19 @@ DetailsDataStorage = {
 ["dps_best"] = 5525390.982784249,
 ["dps_best_raid"] = 81837694.58795819,
 ["time_fasterkill_when"] = 1755738944,
-["dps_best_raid_when"] = 1755738944,
 ["dps_best_when"] = 1755738944,
+["dps_best_raid_when"] = 1755738944,
 },
 ["heroic"] = {
-["time_incombat"] = 1586.404999999994,
-["time_fasterkill"] = 264.2339999999967,
+["time_incombat"] = 1818.265999999994,
+["time_fasterkill"] = 231.8609999999999,
 ["wipes"] = 0,
-["kills"] = 5,
+["kills"] = 6,
 ["dps_best"] = 6107791.45758377,
-["dps_best_raid_when"] = 1757479309,
-["time_fasterkill_when"] = 1757479309,
 ["dps_best_when"] = 1757479309,
-["dps_best_raid"] = 106495125.7673136,
+["time_fasterkill_when"] = 1758074718,
+["dps_best_raid_when"] = 1758074718,
+["dps_best_raid"] = 111772973.3504126,
 },
 },
 [3135] = {
@@ -4631,19 +4824,19 @@ DetailsDataStorage = {
 ["dps_best"] = 3123192.039902375,
 ["dps_best_raid"] = 50258634.47469822,
 ["time_fasterkill_when"] = 1755739567,
-["dps_best_raid_when"] = 1755739567,
 ["dps_best_when"] = 1756970408,
+["dps_best_raid_when"] = 1755739567,
 },
 ["heroic"] = {
-["time_incombat"] = 1534.494999999999,
-["time_fasterkill"] = 460.1749999999993,
+["time_incombat"] = 1978.347000000002,
+["time_fasterkill"] = 443.8520000000026,
 ["wipes"] = 0,
-["kills"] = 3,
-["dps_best"] = 3936184.933997946,
-["dps_best_raid_when"] = 1757034580,
-["time_fasterkill_when"] = 1757034580,
-["dps_best_when"] = 1757034580,
-["dps_best_raid"] = 52781654.88998759,
+["kills"] = 4,
+["dps_best"] = 3991890.305795328,
+["dps_best_when"] = 1758084762,
+["time_fasterkill_when"] = 1758084762,
+["dps_best_raid_when"] = 1758084762,
+["dps_best_raid"] = 62471622.99144723,
 },
 },
 ["mythic"] = {
@@ -4653,32 +4846,32 @@ DetailsDataStorage = {
 ["wipes"] = 23,
 ["kills"] = 0,
 ["dps_best"] = 0,
-["dps_best_when"] = 0,
-["time_fasterkill_when"] = 0,
 ["dps_best_raid_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_when"] = 0,
 ["dps_best_raid"] = 0,
 },
 [3129] = {
 ["time_incombat"] = 0,
 ["time_fasterkill"] = 0,
-["wipes"] = 7,
+["wipes"] = 10,
 ["kills"] = 0,
 ["dps_best"] = 0,
-["dps_best_raid_when"] = 0,
-["time_fasterkill_when"] = 0,
 ["dps_best_when"] = 0,
+["time_fasterkill_when"] = 0,
+["dps_best_raid_when"] = 0,
 ["dps_best_raid"] = 0,
 },
 [3130] = {
 ["time_incombat"] = 0,
 ["time_fasterkill"] = 0,
-["wipes"] = 1,
+["wipes"] = 3,
 ["kills"] = 0,
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_raid_when"] = 0,
 ["dps_best_when"] = 0,
+["dps_best_raid_when"] = 0,
 },
 [3131] = {
 ["time_incombat"] = 0,
@@ -4688,8 +4881,8 @@ DetailsDataStorage = {
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_raid_when"] = 0,
 ["dps_best_when"] = 0,
+["dps_best_raid_when"] = 0,
 },
 [3132] = {
 ["time_incombat"] = 0,
@@ -4699,8 +4892,8 @@ DetailsDataStorage = {
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_when"] = 0,
 ["dps_best_raid_when"] = 0,
+["dps_best_when"] = 0,
 },
 [3133] = {
 ["time_incombat"] = 0,
@@ -4710,8 +4903,8 @@ DetailsDataStorage = {
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_when"] = 0,
 ["dps_best_raid_when"] = 0,
+["dps_best_when"] = 0,
 },
 [3122] = {
 ["time_incombat"] = 0,
@@ -4721,8 +4914,8 @@ DetailsDataStorage = {
 ["dps_best"] = 0,
 ["dps_best_raid"] = 0,
 ["time_fasterkill_when"] = 0,
-["dps_best_when"] = 0,
 ["dps_best_raid_when"] = 0,
+["dps_best_when"] = 0,
 },
 },
 },
@@ -4730,9 +4923,33 @@ DetailsDataStorage = {
 ["heroic"] = {
 [3134] = {
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755745000,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 362.7790000000023,
+["date"] = "22:56 20/08/25",
+["servertime"] = 1755745000,
+["HEALER"] = {
+["Rookiepris"] = {
+["total"] = 1351234543,
+["itemLevel"] = 706.75,
+["classId"] = 5,
+},
+["Víkii"] = {
+["total"] = 936310352,
+["itemLevel"] = 701.375,
+["classId"] = 5,
+},
+["Mistonk"] = {
+["total"] = 1417213054,
+["itemLevel"] = 702.1875,
+["classId"] = 10,
+},
+["Milliontown"] = {
+["total"] = 1213853427,
+["itemLevel"] = 704,
+["classId"] = 2,
+},
+},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1724755771,
@@ -4820,59 +5037,11 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["servertime"] = 1755745000,
-["HEALER"] = {
-["Rookiepris"] = {
-["total"] = 1351234543,
-["itemLevel"] = 706.75,
-["classId"] = 5,
-},
-["Víkii"] = {
-["total"] = 936310352,
-["itemLevel"] = 701.375,
-["classId"] = 5,
-},
-["Mistonk"] = {
-["total"] = 1417213054,
-["itemLevel"] = 702.1875,
-["classId"] = 10,
-},
-["Milliontown"] = {
-["total"] = 1213853427,
-["itemLevel"] = 704,
-["classId"] = 2,
-},
-},
-["date"] = "22:56 20/08/25",
 },
 {
-["time"] = 1756347746,
 ["guild"] = "Squirrel Squad",
+["time"] = 1756347746,
 ["elapsed"] = 316.3989999999976,
-["date"] = "22:22 27/08/25",
-["servertime"] = 1756347745,
-["HEALER"] = {
-["Víkii"] = {
-["total"] = 828059207,
-["itemLevel"] = 705.5625,
-["classId"] = 5,
-},
-["Gingermint"] = {
-["total"] = 1150289442,
-["itemLevel"] = 707.9375,
-["classId"] = 7,
-},
-["Mistonk"] = {
-["total"] = 1016554652,
-["itemLevel"] = 708.8125,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 1140315068,
-["itemLevel"] = 708.3125,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Minamage"] = {
 ["total"] = 2197531655,
@@ -4904,10 +5073,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 708.8125,
 ["classId"] = 12,
 },
-["Maweigavel"] = {
-["total"] = 1859001266,
-["itemLevel"] = 710.75,
-["classId"] = 1,
+["Milliontown"] = {
+["total"] = 1585740220,
+["itemLevel"] = 707.4375,
+["classId"] = 2,
 },
 ["Yukarilune"] = {
 ["total"] = 1425126677,
@@ -4944,16 +5113,38 @@ DetailsDataStorage = {
 ["itemLevel"] = 709.5,
 ["classId"] = 11,
 },
-["Milliontown"] = {
-["total"] = 1585740220,
-["itemLevel"] = 707.4375,
-["classId"] = 2,
+["Maweigavel"] = {
+["total"] = 1859001266,
+["itemLevel"] = 710.75,
+["classId"] = 1,
 },
 },
+["servertime"] = 1756347745,
+["HEALER"] = {
+["Víkii"] = {
+["total"] = 828059207,
+["itemLevel"] = 705.5625,
+["classId"] = 5,
+},
+["Gingermint"] = {
+["total"] = 1150289442,
+["itemLevel"] = 707.9375,
+["classId"] = 7,
+},
+["Mistonk"] = {
+["total"] = 1016554652,
+["itemLevel"] = 708.8125,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 1140315068,
+["itemLevel"] = 708.3125,
+["classId"] = 5,
+},
+},
+["date"] = "22:22 27/08/25",
 },
 {
-["date"] = "20:57 04/09/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1525615124,
@@ -4970,9 +5161,9 @@ DetailsDataStorage = {
 ["itemLevel"] = 711.75,
 ["classId"] = 8,
 },
-["Yuto"] = {
-["total"] = 1410462601,
-["itemLevel"] = 713.5625,
+["Rookiexd"] = {
+["total"] = 816176165,
+["itemLevel"] = 701.4375,
 ["classId"] = 11,
 },
 ["Mejojod"] = {
@@ -4985,10 +5176,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 705.5,
 ["classId"] = 12,
 },
-["Aliveevil"] = {
-["total"] = 1405115258,
-["itemLevel"] = 712.5625,
-["classId"] = 3,
+["Maweigavel"] = {
+["total"] = 1577009996,
+["itemLevel"] = 714,
+["classId"] = 1,
 },
 ["Ennikina"] = {
 ["total"] = 793387780,
@@ -5000,9 +5191,9 @@ DetailsDataStorage = {
 ["itemLevel"] = 709.8125,
 ["classId"] = 2,
 },
-["Rookiexd"] = {
-["total"] = 816176165,
-["itemLevel"] = 701.4375,
+["Yuto"] = {
+["total"] = 1410462601,
+["itemLevel"] = 713.5625,
 ["classId"] = 11,
 },
 ["Alexdrotha"] = {
@@ -5025,12 +5216,14 @@ DetailsDataStorage = {
 ["itemLevel"] = 711.9375,
 ["classId"] = 1,
 },
-["Maweigavel"] = {
-["total"] = 1577009996,
-["itemLevel"] = 714,
-["classId"] = 1,
+["Aliveevil"] = {
+["total"] = 1405115258,
+["itemLevel"] = 712.5625,
+["classId"] = 3,
 },
 },
+["time"] = 1757033835,
+["date"] = "20:57 04/09/25",
 ["elapsed"] = 286.884,
 ["servertime"] = 1757033837,
 ["HEALER"] = {
@@ -5050,14 +5243,164 @@ DetailsDataStorage = {
 ["classId"] = 10,
 },
 },
-["time"] = 1757033835,
+["guild"] = "Squirrel Squad",
+},
+{
+["guild"] = "Squirrel Squad",
+["time"] = 1758074718,
+["elapsed"] = 231.8609999999999,
+["DAMAGER"] = {
+["Softiam"] = {
+["total"] = 1476638041,
+["itemLevel"] = 713.875,
+["classId"] = 8,
+},
+["Duolagong-Tichondrius"] = {
+["total"] = 598023293,
+["itemLevel"] = 714.875,
+["classId"] = 13,
+},
+["Miemie"] = {
+["total"] = 830171733,
+["itemLevel"] = 716.9375,
+["classId"] = 10,
+},
+["Wangxiaofei"] = {
+["total"] = 568814582,
+["itemLevel"] = 715.5625,
+["classId"] = 13,
+},
+["Owlgaze-Tichondrius"] = {
+["total"] = 1188096992,
+["itemLevel"] = 717.1875,
+["classId"] = 4,
+},
+["Bearbuttfan"] = {
+["total"] = 1572597519,
+["itemLevel"] = 717.6666666666666,
+["classId"] = 11,
+},
+["Yuto"] = {
+["total"] = 1317139837,
+["itemLevel"] = 715.375,
+["classId"] = 11,
+},
+["Cptcookie-Proudmoore"] = {
+["total"] = 1533219624,
+["itemLevel"] = 717.375,
+["classId"] = 6,
+},
+["Ounildetiou"] = {
+["total"] = 1292779371,
+["itemLevel"] = 716.75,
+["classId"] = 7,
+},
+["Minamage"] = {
+["total"] = 1586593834,
+["itemLevel"] = 715.3125,
+["classId"] = 8,
+},
+["Gguojing"] = {
+["total"] = 768195454,
+["itemLevel"] = 717.4375,
+["classId"] = 1,
+},
+["Delicateluvu"] = {
+["total"] = 1457929215,
+["itemLevel"] = 716.6875,
+["classId"] = 9,
+},
+["Maweigavel"] = {
+["total"] = 1358389701,
+["itemLevel"] = 717.125,
+["classId"] = 1,
+},
+["Goonrock"] = {
+["total"] = 1489495827,
+["itemLevel"] = 716.5,
+["classId"] = 8,
+},
+["Fengnimabi"] = {
+["total"] = 1408392791,
+["itemLevel"] = 716.9375,
+["classId"] = 12,
+},
+["Lilithian"] = {
+["total"] = 1296340404,
+["itemLevel"] = 716,
+["classId"] = 9,
+},
+["Younggoon-Proudmoore"] = {
+["total"] = 1481667539,
+["itemLevel"] = 715.75,
+["classId"] = 1,
+},
+["Misteln"] = {
+["total"] = 1571811018,
+["itemLevel"] = 717.125,
+["classId"] = 3,
+},
+["Mayoiuta"] = {
+["total"] = 1570875793,
+["itemLevel"] = 720,
+["classId"] = 6,
+},
+["Zzacc"] = {
+["total"] = 1224892875,
+["itemLevel"] = 717.125,
+["classId"] = 5,
+},
+},
+["servertime"] = 1758074718,
+["HEALER"] = {
+["Nichijo"] = {
+["total"] = 696597602,
+["itemLevel"] = 691,
+["classId"] = 7,
+},
+["Milkychao"] = {
+["total"] = 1154127814,
+["itemLevel"] = 715.125,
+["classId"] = 2,
+},
+["Linshiifuren"] = {
+["total"] = 1303480201,
+["itemLevel"] = 716.8125,
+["classId"] = 10,
+},
+},
+["date"] = "22:05 16/09/25",
 },
 },
 [3135] = {
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755747782,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 554.1310000000012,
+["date"] = "23:43 20/08/25",
+["servertime"] = 1755747782,
+["HEALER"] = {
+["Rookiepris"] = {
+["total"] = 2053278849,
+["itemLevel"] = 706.75,
+["classId"] = 5,
+},
+["Víkii"] = {
+["total"] = 1186440327,
+["itemLevel"] = 701.375,
+["classId"] = 5,
+},
+["Mistonk"] = {
+["total"] = 1531571785,
+["itemLevel"] = 702.1875,
+["classId"] = 10,
+},
+["Milliontown"] = {
+["total"] = 2057918141,
+["itemLevel"] = 704,
+["classId"] = 2,
+},
+},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1804364350,
@@ -5145,64 +5488,11 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["servertime"] = 1755747782,
-["HEALER"] = {
-["Rookiepris"] = {
-["total"] = 2053278849,
-["itemLevel"] = 706.75,
-["classId"] = 5,
-},
-["Víkii"] = {
-["total"] = 1186440327,
-["itemLevel"] = 701.375,
-["classId"] = 5,
-},
-["Mistonk"] = {
-["total"] = 1531571785,
-["itemLevel"] = 702.1875,
-["classId"] = 10,
-},
-["Milliontown"] = {
-["total"] = 2057918141,
-["itemLevel"] = 704,
-["classId"] = 2,
-},
-},
-["date"] = "23:43 20/08/25",
 },
 {
-["time"] = 1756348646,
 ["guild"] = "Squirrel Squad",
+["time"] = 1756348646,
 ["elapsed"] = 520.1889999999985,
-["date"] = "22:37 27/08/25",
-["servertime"] = 1756348645,
-["HEALER"] = {
-["Gingermint"] = {
-["total"] = 1320396215,
-["itemLevel"] = 707.9375,
-["classId"] = 7,
-},
-["Mistonk"] = {
-["total"] = 527148780,
-["itemLevel"] = 708.8125,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 2022351486,
-["itemLevel"] = 708.3125,
-["classId"] = 5,
-},
-["Víkii"] = {
-["total"] = 1534946591,
-["itemLevel"] = 705.5625,
-["classId"] = 5,
-},
-["Milliontown"] = {
-["total"] = 1149919524,
-["itemLevel"] = 709.9375,
-["classId"] = 2,
-},
-},
 ["DAMAGER"] = {
 ["Minamage"] = {
 ["total"] = 2367968888,
@@ -5275,10 +5565,37 @@ DetailsDataStorage = {
 ["classId"] = 11,
 },
 },
+["servertime"] = 1756348645,
+["HEALER"] = {
+["Gingermint"] = {
+["total"] = 1320396215,
+["itemLevel"] = 707.9375,
+["classId"] = 7,
+},
+["Mistonk"] = {
+["total"] = 527148780,
+["itemLevel"] = 708.8125,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 2022351486,
+["itemLevel"] = 708.3125,
+["classId"] = 5,
+},
+["Víkii"] = {
+["total"] = 1534946591,
+["itemLevel"] = 705.5625,
+["classId"] = 5,
+},
+["Milliontown"] = {
+["total"] = 1149919524,
+["itemLevel"] = 709.9375,
+["classId"] = 2,
+},
+},
+["date"] = "22:37 27/08/25",
 },
 {
-["date"] = "21:09 04/09/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1503404519,
@@ -5295,10 +5612,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 711.75,
 ["classId"] = 8,
 },
-["Maweigavel"] = {
-["total"] = 1811333902,
-["itemLevel"] = 714,
-["classId"] = 1,
+["Aliveevil"] = {
+["total"] = 1682056090,
+["itemLevel"] = 711.625,
+["classId"] = 3,
 },
 ["Littledotdot"] = {
 ["total"] = 1491900352,
@@ -5315,10 +5632,10 @@ DetailsDataStorage = {
 ["itemLevel"] = 712.9375,
 ["classId"] = 12,
 },
-["Aliveevil"] = {
-["total"] = 1682056090,
-["itemLevel"] = 711.625,
-["classId"] = 3,
+["Maweigavel"] = {
+["total"] = 1811333902,
+["itemLevel"] = 714,
+["classId"] = 1,
 },
 ["Yukarilune"] = {
 ["total"] = 1556899864,
@@ -5361,6 +5678,8 @@ DetailsDataStorage = {
 ["classId"] = 10,
 },
 },
+["time"] = 1757034580,
+["date"] = "21:09 04/09/25",
 ["elapsed"] = 460.1749999999993,
 ["servertime"] = 1757034582,
 ["HEALER"] = {
@@ -5390,14 +5709,38 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["time"] = 1757034580,
+["guild"] = "Squirrel Squad",
 },
 },
 [3129] = {
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755740511,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 222.5069999999978,
+["date"] = "21:41 20/08/25",
+["servertime"] = 1755740510,
+["HEALER"] = {
+["Milliontown"] = {
+["total"] = 548637517,
+["itemLevel"] = 704,
+["classId"] = 2,
+},
+["Víkii"] = {
+["total"] = 478526765,
+["itemLevel"] = 699.125,
+["classId"] = 5,
+},
+["Mistonk"] = {
+["total"] = 663575624,
+["itemLevel"] = 702.1875,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 672560311,
+["itemLevel"] = 706.75,
+["classId"] = 5,
+},
+},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 890433264,
@@ -5485,32 +5828,10 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["servertime"] = 1755740510,
-["HEALER"] = {
-["Milliontown"] = {
-["total"] = 548637517,
-["itemLevel"] = 704,
-["classId"] = 2,
-},
-["Víkii"] = {
-["total"] = 478526765,
-["itemLevel"] = 699.125,
-["classId"] = 5,
-},
-["Mistonk"] = {
-["total"] = 663575624,
-["itemLevel"] = 702.1875,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 672560311,
-["itemLevel"] = 706.75,
-["classId"] = 5,
-},
-},
-["date"] = "21:41 20/08/25",
 },
 {
+["date"] = "21:09 27/08/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1038537175,
@@ -5583,8 +5904,6 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["time"] = 1756343373,
-["date"] = "21:09 27/08/25",
 ["elapsed"] = 229.0580000000045,
 ["servertime"] = 1756343372,
 ["HEALER"] = {
@@ -5614,31 +5933,12 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1756343373,
 },
 {
-["time"] = 1757641684,
 ["guild"] = "Squirrel Squad",
+["time"] = 1757641684,
 ["elapsed"] = 248.2270000000003,
-["date"] = "21:48 11/09/25",
-["servertime"] = 1757641687,
-["HEALER"] = {
-["Gingermint"] = {
-["total"] = 695895285,
-["itemLevel"] = 713.5625,
-["classId"] = 7,
-},
-["Milliontown"] = {
-["total"] = 667909394,
-["itemLevel"] = 714.125,
-["classId"] = 2,
-},
-["Rookiepris"] = {
-["total"] = 744285087,
-["itemLevel"] = 713.25,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1106289235,
@@ -5731,13 +6031,56 @@ DetailsDataStorage = {
 ["classId"] = 6,
 },
 },
+["servertime"] = 1757641687,
+["HEALER"] = {
+["Gingermint"] = {
+["total"] = 695895285,
+["itemLevel"] = 713.5625,
+["classId"] = 7,
+},
+["Milliontown"] = {
+["total"] = 667909394,
+["itemLevel"] = 714.125,
+["classId"] = 2,
+},
+["Rookiepris"] = {
+["total"] = 744285087,
+["itemLevel"] = 713.25,
+["classId"] = 5,
+},
+},
+["date"] = "21:48 11/09/25",
 },
 },
 [3130] = {
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755741883,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 221.9300000000003,
+["date"] = "22:04 20/08/25",
+["servertime"] = 1755741883,
+["HEALER"] = {
+["Milliontown"] = {
+["total"] = 819441327,
+["itemLevel"] = 704,
+["classId"] = 2,
+},
+["Víkii"] = {
+["total"] = 588207822,
+["itemLevel"] = 699.5,
+["classId"] = 5,
+},
+["Mistonk"] = {
+["total"] = 806168649,
+["itemLevel"] = 702.1875,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 851503866,
+["itemLevel"] = 706.75,
+["classId"] = 5,
+},
+},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1257810763,
@@ -5825,32 +6168,10 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["servertime"] = 1755741883,
-["HEALER"] = {
-["Milliontown"] = {
-["total"] = 819441327,
-["itemLevel"] = 704,
-["classId"] = 2,
-},
-["Víkii"] = {
-["total"] = 588207822,
-["itemLevel"] = 699.5,
-["classId"] = 5,
-},
-["Mistonk"] = {
-["total"] = 806168649,
-["itemLevel"] = 702.1875,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 851503866,
-["itemLevel"] = 706.75,
-["classId"] = 5,
-},
-},
-["date"] = "22:04 20/08/25",
 },
 {
+["date"] = "21:30 27/08/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1372572099,
@@ -5923,8 +6244,6 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["time"] = 1756344644,
-["date"] = "21:30 27/08/25",
 ["elapsed"] = 212.9409999999989,
 ["servertime"] = 1756344644,
 ["HEALER"] = {
@@ -5954,14 +6273,38 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1756344644,
 },
 },
 [3131] = {
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755741186,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 221.7909999999974,
+["date"] = "21:53 20/08/25",
+["servertime"] = 1755741186,
+["HEALER"] = {
+["Milliontown"] = {
+["total"] = 637545150,
+["itemLevel"] = 704,
+["classId"] = 2,
+},
+["Víkii"] = {
+["total"] = 550905733,
+["itemLevel"] = 699.125,
+["classId"] = 5,
+},
+["Mistonk"] = {
+["total"] = 918928624,
+["itemLevel"] = 702.1875,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 818622249,
+["itemLevel"] = 706.75,
+["classId"] = 5,
+},
+},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1082927965,
@@ -6049,32 +6392,10 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["servertime"] = 1755741186,
-["HEALER"] = {
-["Milliontown"] = {
-["total"] = 637545150,
-["itemLevel"] = 704,
-["classId"] = 2,
-},
-["Víkii"] = {
-["total"] = 550905733,
-["itemLevel"] = 699.125,
-["classId"] = 5,
-},
-["Mistonk"] = {
-["total"] = 918928624,
-["itemLevel"] = 702.1875,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 818622249,
-["itemLevel"] = 706.75,
-["classId"] = 5,
-},
-},
-["date"] = "21:53 20/08/25",
 },
 {
+["date"] = "21:19 27/08/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1117301664,
@@ -6147,8 +6468,6 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["time"] = 1756343998,
-["date"] = "21:19 27/08/25",
 ["elapsed"] = 214.1690000000017,
 ["servertime"] = 1756343997,
 ["HEALER"] = {
@@ -6178,36 +6497,12 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1756343998,
 },
 {
-["time"] = 1756948214,
 ["guild"] = "Squirrel Squad",
+["time"] = 1756948214,
 ["elapsed"] = 219.2669999999998,
-["date"] = "21:10 03/09/25",
-["servertime"] = 1756948214,
-["HEALER"] = {
-["Kuroblackev"] = {
-["total"] = 667252736,
-["itemLevel"] = 702.875,
-["classId"] = 13,
-},
-["Rookiepris"] = {
-["total"] = 867219824,
-["itemLevel"] = 712.3125,
-["classId"] = 5,
-},
-["Mistonk"] = {
-["total"] = 890535283,
-["itemLevel"] = 710,
-["classId"] = 10,
-},
-["Milliontown"] = {
-["total"] = 692986089,
-["itemLevel"] = 711.3125,
-["classId"] = 2,
-},
-},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1151318642,
@@ -6290,10 +6585,32 @@ DetailsDataStorage = {
 ["classId"] = 7,
 },
 },
+["servertime"] = 1756948214,
+["HEALER"] = {
+["Kuroblackev"] = {
+["total"] = 667252736,
+["itemLevel"] = 702.875,
+["classId"] = 13,
+},
+["Rookiepris"] = {
+["total"] = 867219824,
+["itemLevel"] = 712.3125,
+["classId"] = 5,
+},
+["Mistonk"] = {
+["total"] = 890535283,
+["itemLevel"] = 710,
+["classId"] = 10,
+},
+["Milliontown"] = {
+["total"] = 692986089,
+["itemLevel"] = 711.3125,
+["classId"] = 2,
+},
+},
+["date"] = "21:10 03/09/25",
 },
 {
-["date"] = "23:53 09/09/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Softiam"] = {
 ["total"] = 1458601564,
@@ -6391,6 +6708,8 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
+["time"] = 1757476432,
+["date"] = "23:53 09/09/25",
 ["elapsed"] = 197.1589999999997,
 ["servertime"] = 1757476432,
 ["HEALER"] = {
@@ -6410,26 +6729,12 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1757476432,
+["guild"] = "Squirrel Squad",
 },
 {
-["time"] = 1757642435,
 ["guild"] = "Squirrel Squad",
+["time"] = 1757642435,
 ["elapsed"] = 237.3070000000002,
-["date"] = "22:00 11/09/25",
-["servertime"] = 1757642438,
-["HEALER"] = {
-["Gingermint"] = {
-["total"] = 962752078,
-["itemLevel"] = 713.5625,
-["classId"] = 7,
-},
-["Rookiepris"] = {
-["total"] = 783230441,
-["itemLevel"] = 713.25,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1414800223,
@@ -6527,13 +6832,182 @@ DetailsDataStorage = {
 ["classId"] = 6,
 },
 },
+["servertime"] = 1757642438,
+["HEALER"] = {
+["Gingermint"] = {
+["total"] = 962752078,
+["itemLevel"] = 713.5625,
+["classId"] = 7,
+},
+["Rookiepris"] = {
+["total"] = 783230441,
+["itemLevel"] = 713.25,
+["classId"] = 5,
+},
+},
+["date"] = "22:00 11/09/25",
+},
+{
+["guild"] = "Squirrel Squad",
+["time"] = 1758071886,
+["elapsed"] = 196.3029999999999,
+["DAMAGER"] = {
+["Softiam"] = {
+["total"] = 1217311732,
+["itemLevel"] = 713.875,
+["classId"] = 8,
+},
+["Miemie"] = {
+["total"] = 688856550,
+["itemLevel"] = 716.9375,
+["classId"] = 10,
+},
+["Wangxiaofei"] = {
+["total"] = 569067214,
+["itemLevel"] = 715.5625,
+["classId"] = 13,
+},
+["Owlgaze-Tichondrius"] = {
+["total"] = 1005489610,
+["itemLevel"] = 717.1875,
+["classId"] = 4,
+},
+["Goonrock"] = {
+["total"] = 1268002490,
+["itemLevel"] = 716.5,
+["classId"] = 8,
+},
+["Realeupope"] = {
+["total"] = 0,
+["itemLevel"] = 680.625,
+["classId"] = 5,
+},
+["Cptcookie-Proudmoore"] = {
+["total"] = 1135480304,
+["itemLevel"] = 716.375,
+["classId"] = 6,
+},
+["Ounildetiou"] = {
+["total"] = 1256592830,
+["itemLevel"] = 716.75,
+["classId"] = 7,
+},
+["Gingertea"] = {
+["total"] = 0,
+["itemLevel"] = 715.9375,
+["classId"] = 3,
+},
+["Mayoiuta"] = {
+["total"] = 1204312042,
+["itemLevel"] = 720,
+["classId"] = 6,
+},
+["Lilithian"] = {
+["total"] = 1269595361,
+["itemLevel"] = 716,
+["classId"] = 9,
+},
+["Solange"] = {
+["total"] = 666798759,
+["itemLevel"] = 690.0625,
+["classId"] = 7,
+},
+["Maweigavel"] = {
+["total"] = 1240735726,
+["itemLevel"] = 717.125,
+["classId"] = 1,
+},
+["Gguojing"] = {
+["total"] = 599052696,
+["itemLevel"] = 717.4375,
+["classId"] = 1,
+},
+["Dragonnorage-Tichondrius"] = {
+["total"] = 1056142741,
+["itemLevel"] = 712.375,
+["classId"] = 11,
+},
+["Delicateluvu"] = {
+["total"] = 1351254140,
+["itemLevel"] = 716.6875,
+["classId"] = 9,
+},
+["Misteln"] = {
+["total"] = 1226666169,
+["itemLevel"] = 717.125,
+["classId"] = 3,
+},
+["Younggoon-Proudmoore"] = {
+["total"] = 1226578754,
+["itemLevel"] = 715.75,
+["classId"] = 1,
+},
+["Dwarfhp"] = {
+["total"] = 1059852480,
+["itemLevel"] = 708.6875,
+["classId"] = 2,
+},
+["Yuzumochiuwu"] = {
+["total"] = 453505971,
+["itemLevel"] = 713.5625,
+["classId"] = 12,
+},
+["Zzacc"] = {
+["total"] = 1147578929,
+["itemLevel"] = 717.125,
+["classId"] = 5,
+},
+},
+["servertime"] = 1758071886,
+["HEALER"] = {
+["Nichijo"] = {
+["total"] = 487020564,
+["itemLevel"] = 687.9375,
+["classId"] = 7,
+},
+["Topyouoff"] = {
+["total"] = 685489312,
+["itemLevel"] = 703.875,
+["classId"] = 5,
+},
+["Furennsp"] = {
+["total"] = 939482513,
+["itemLevel"] = 712.5625,
+["classId"] = 13,
+},
+},
+["date"] = "21:18 16/09/25",
 },
 },
 [3132] = {
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755742764,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 310.4679999999935,
+["date"] = "22:19 20/08/25",
+["servertime"] = 1755742763,
+["HEALER"] = {
+["Milliontown"] = {
+["total"] = 647646487,
+["itemLevel"] = 704,
+["classId"] = 2,
+},
+["Víkii"] = {
+["total"] = 583416700,
+["itemLevel"] = 699.5,
+["classId"] = 5,
+},
+["Mistonk"] = {
+["total"] = 925953504,
+["itemLevel"] = 702.1875,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 842893931,
+["itemLevel"] = 706.75,
+["classId"] = 5,
+},
+},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1562724112,
@@ -6621,32 +7095,10 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["servertime"] = 1755742763,
-["HEALER"] = {
-["Milliontown"] = {
-["total"] = 647646487,
-["itemLevel"] = 704,
-["classId"] = 2,
-},
-["Víkii"] = {
-["total"] = 583416700,
-["itemLevel"] = 699.5,
-["classId"] = 5,
-},
-["Mistonk"] = {
-["total"] = 925953504,
-["itemLevel"] = 702.1875,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 842893931,
-["itemLevel"] = 706.75,
-["classId"] = 5,
-},
-},
-["date"] = "22:19 20/08/25",
 },
 {
+["date"] = "21:44 27/08/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1455235546,
@@ -6719,8 +7171,6 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["time"] = 1756345454,
-["date"] = "21:44 27/08/25",
 ["elapsed"] = 269.9589999999953,
 ["servertime"] = 1756345454,
 ["HEALER"] = {
@@ -6750,11 +7200,9 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1756345454,
 },
 {
-["date"] = "21:22 03/09/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 1448506679,
@@ -6842,6 +7290,8 @@ DetailsDataStorage = {
 ["classId"] = 11,
 },
 },
+["time"] = 1756948964,
+["date"] = "21:22 03/09/25",
 ["elapsed"] = 257.808,
 ["servertime"] = 1756948964,
 ["HEALER"] = {
@@ -6866,11 +7316,9 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1756948964,
+["guild"] = "Squirrel Squad",
 },
 {
-["date"] = "00:06 10/09/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Softiam"] = {
 ["total"] = 1493056598,
@@ -6968,6 +7416,8 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
+["time"] = 1757477191,
+["date"] = "00:06 10/09/25",
 ["elapsed"] = 224.7459999999992,
 ["servertime"] = 1757477191,
 ["HEALER"] = {
@@ -6987,31 +7437,12 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1757477191,
+["guild"] = "Squirrel Squad",
 },
 {
-["time"] = 1757644191,
 ["guild"] = "Squirrel Squad",
+["time"] = 1757644191,
 ["elapsed"] = 392.2979999999998,
-["date"] = "22:29 11/09/25",
-["servertime"] = 1757644194,
-["HEALER"] = {
-["Fluffychao"] = {
-["total"] = 9371758,
-["itemLevel"] = 678.1875,
-["classId"] = 11,
-},
-["Gingermint"] = {
-["total"] = 1109297903,
-["itemLevel"] = 713.5625,
-["classId"] = 7,
-},
-["Rookiepris"] = {
-["total"] = 1081363482,
-["itemLevel"] = 713.25,
-["classId"] = 5,
-},
-},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 2597378580,
@@ -7104,13 +7535,192 @@ DetailsDataStorage = {
 ["classId"] = 3,
 },
 },
+["servertime"] = 1757644194,
+["HEALER"] = {
+["Fluffychao"] = {
+["total"] = 9371758,
+["itemLevel"] = 678.1875,
+["classId"] = 11,
+},
+["Gingermint"] = {
+["total"] = 1109297903,
+["itemLevel"] = 713.5625,
+["classId"] = 7,
+},
+["Rookiepris"] = {
+["total"] = 1081363482,
+["itemLevel"] = 713.25,
+["classId"] = 5,
+},
+},
+["date"] = "22:29 11/09/25",
+},
+{
+["guild"] = "Squirrel Squad",
+["time"] = 1758072681,
+["elapsed"] = 231.232,
+["DAMAGER"] = {
+["Softiam"] = {
+["total"] = 1571728011,
+["itemLevel"] = 712.625,
+["classId"] = 8,
+},
+["Miemie"] = {
+["total"] = 913175163,
+["itemLevel"] = 716.9375,
+["classId"] = 10,
+},
+["Wangxiaofei"] = {
+["total"] = 654451181,
+["itemLevel"] = 715.5625,
+["classId"] = 13,
+},
+["Owlgaze-Tichondrius"] = {
+["total"] = 1783357786,
+["itemLevel"] = 717.1875,
+["classId"] = 4,
+},
+["Goonrock"] = {
+["total"] = 1673101325,
+["itemLevel"] = 716.5,
+["classId"] = 8,
+},
+["Yuto"] = {
+["total"] = 1249772186,
+["itemLevel"] = 715.375,
+["classId"] = 11,
+},
+["Realeupope"] = {
+["total"] = 0,
+["itemLevel"] = 680.625,
+["classId"] = 5,
+},
+["Cptcookie-Proudmoore"] = {
+["total"] = 1819557022,
+["itemLevel"] = 717.375,
+["classId"] = 6,
+},
+["Ounildetiou"] = {
+["total"] = 1489616033,
+["itemLevel"] = 716.75,
+["classId"] = 7,
+},
+["Gingertea"] = {
+["total"] = 0,
+["itemLevel"] = 715.9375,
+["classId"] = 3,
+},
+["Mayoiuta"] = {
+["total"] = 1745627824,
+["itemLevel"] = 720,
+["classId"] = 6,
+},
+["Lilithian"] = {
+["total"] = 1572962656,
+["itemLevel"] = 716,
+["classId"] = 9,
+},
+["Solange"] = {
+["total"] = 757915956,
+["itemLevel"] = 690.0625,
+["classId"] = 7,
+},
+["Maweigavel"] = {
+["total"] = 1580141922,
+["itemLevel"] = 717.125,
+["classId"] = 1,
+},
+["Gguojing"] = {
+["total"] = 674566061,
+["itemLevel"] = 717.4375,
+["classId"] = 1,
+},
+["Dragonnorage-Tichondrius"] = {
+["total"] = 1079105665,
+["itemLevel"] = 712.375,
+["classId"] = 11,
+},
+["Delicateluvu"] = {
+["total"] = 1522758464,
+["itemLevel"] = 716.6875,
+["classId"] = 9,
+},
+["Misteln"] = {
+["total"] = 1432006705,
+["itemLevel"] = 717.125,
+["classId"] = 3,
+},
+["Younggoon-Proudmoore"] = {
+["total"] = 1624442050,
+["itemLevel"] = 716.9375,
+["classId"] = 1,
+},
+["Dwarfhp"] = {
+["total"] = 1227843800,
+["itemLevel"] = 708.6875,
+["classId"] = 2,
+},
+["Yuzumochiuwu"] = {
+["total"] = 832651959,
+["itemLevel"] = 712.375,
+["classId"] = 12,
+},
+["Zzacc"] = {
+["total"] = 1566280746,
+["itemLevel"] = 717.125,
+["classId"] = 5,
+},
+},
+["servertime"] = 1758072681,
+["HEALER"] = {
+["Nichijo"] = {
+["total"] = 324501015,
+["itemLevel"] = 687.9375,
+["classId"] = 7,
+},
+["Topyouoff"] = {
+["total"] = 530492015,
+["itemLevel"] = 704.0625,
+["classId"] = 5,
+},
+["Furennsp"] = {
+["total"] = 596923718,
+["itemLevel"] = 712.5625,
+["classId"] = 13,
+},
+},
+["date"] = "21:31 16/09/25",
 },
 },
 [3133] = {
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755744114,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 235.1659999999974,
+["date"] = "22:41 20/08/25",
+["servertime"] = 1755744114,
+["HEALER"] = {
+["Milliontown"] = {
+["total"] = 463783091,
+["itemLevel"] = 704,
+["classId"] = 2,
+},
+["Víkii"] = {
+["total"] = 449526731,
+["itemLevel"] = 701.375,
+["classId"] = 5,
+},
+["Mistonk"] = {
+["total"] = 600618141,
+["itemLevel"] = 702.1875,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 657601901,
+["itemLevel"] = 706.75,
+["classId"] = 5,
+},
+},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 996612967,
@@ -7198,64 +7808,11 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["servertime"] = 1755744114,
-["HEALER"] = {
-["Milliontown"] = {
-["total"] = 463783091,
-["itemLevel"] = 704,
-["classId"] = 2,
-},
-["Víkii"] = {
-["total"] = 449526731,
-["itemLevel"] = 701.375,
-["classId"] = 5,
-},
-["Mistonk"] = {
-["total"] = 600618141,
-["itemLevel"] = 702.1875,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 657601901,
-["itemLevel"] = 706.75,
-["classId"] = 5,
-},
-},
-["date"] = "22:41 20/08/25",
 },
 {
-["time"] = 1756346843,
 ["guild"] = "Squirrel Squad",
+["time"] = 1756346843,
 ["elapsed"] = 221.1140000000014,
-["date"] = "22:07 27/08/25",
-["servertime"] = 1756346843,
-["HEALER"] = {
-["Víkii"] = {
-["total"] = 394597599,
-["itemLevel"] = 705.5625,
-["classId"] = 5,
-},
-["Mistonk"] = {
-["total"] = 477506411,
-["itemLevel"] = 708.8125,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 487161025,
-["itemLevel"] = 708.3125,
-["classId"] = 5,
-},
-["Gingermint"] = {
-["total"] = 454721283,
-["itemLevel"] = 707.9375,
-["classId"] = 7,
-},
-["Milliontown"] = {
-["total"] = 283899805,
-["itemLevel"] = 708.6875,
-["classId"] = 2,
-},
-},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 918896821,
@@ -7328,10 +7885,37 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
+["servertime"] = 1756346843,
+["HEALER"] = {
+["Víkii"] = {
+["total"] = 394597599,
+["itemLevel"] = 705.5625,
+["classId"] = 5,
+},
+["Mistonk"] = {
+["total"] = 477506411,
+["itemLevel"] = 708.8125,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 487161025,
+["itemLevel"] = 708.3125,
+["classId"] = 5,
+},
+["Gingermint"] = {
+["total"] = 454721283,
+["itemLevel"] = 707.9375,
+["classId"] = 7,
+},
+["Milliontown"] = {
+["total"] = 283899805,
+["itemLevel"] = 708.6875,
+["classId"] = 2,
+},
+},
+["date"] = "22:07 27/08/25",
 },
 {
-["date"] = "21:39 03/09/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 925281018,
@@ -7419,6 +8003,8 @@ DetailsDataStorage = {
 ["classId"] = 11,
 },
 },
+["time"] = 1756949998,
+["date"] = "21:39 03/09/25",
 ["elapsed"] = 201.3599999999997,
 ["servertime"] = 1756949998,
 ["HEALER"] = {
@@ -7443,14 +8029,189 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1756949998,
+["guild"] = "Squirrel Squad",
+},
+{
+["guild"] = "Squirrel Squad",
+["time"] = 1758074086,
+["elapsed"] = 203.2709999999997,
+["DAMAGER"] = {
+["Softiam"] = {
+["total"] = 1178617164,
+["itemLevel"] = 709.8125,
+["classId"] = 8,
+},
+["Miemie"] = {
+["total"] = 596857791,
+["itemLevel"] = 716.9375,
+["classId"] = 10,
+},
+["Wangxiaofei"] = {
+["total"] = 218938559,
+["itemLevel"] = 715.5625,
+["classId"] = 13,
+},
+["Owlgaze-Tichondrius"] = {
+["total"] = 930541847,
+["itemLevel"] = 717.1875,
+["classId"] = 4,
+},
+["Goonrock"] = {
+["total"] = 1160250458,
+["itemLevel"] = 716.5,
+["classId"] = 8,
+},
+["Yuto"] = {
+["total"] = 1035039308,
+["itemLevel"] = 715.375,
+["classId"] = 11,
+},
+["Realeupope"] = {
+["total"] = 0,
+["itemLevel"] = 680.625,
+["classId"] = 5,
+},
+["Cptcookie-Proudmoore"] = {
+["total"] = 1050034518,
+["itemLevel"] = 717.375,
+["classId"] = 6,
+},
+["Ounildetiou"] = {
+["total"] = 1212237752,
+["itemLevel"] = 716.75,
+["classId"] = 7,
+},
+["Gingertea"] = {
+["total"] = 643327629,
+["itemLevel"] = 715.9375,
+["classId"] = 3,
+},
+["Fengnimabi"] = {
+["total"] = 1114102658,
+["itemLevel"] = 716.9375,
+["classId"] = 12,
+},
+["Mayoiuta"] = {
+["total"] = 1087404283,
+["itemLevel"] = 718.75,
+["classId"] = 6,
+},
+["Lilithian"] = {
+["total"] = 1052322709,
+["itemLevel"] = 716,
+["classId"] = 9,
+},
+["Minamage"] = {
+["total"] = 1164844752,
+["itemLevel"] = 715.3125,
+["classId"] = 8,
+},
+["Zzacc"] = {
+["total"] = 989226232,
+["itemLevel"] = 717.125,
+["classId"] = 5,
+},
+["Solange"] = {
+["total"] = 540698429,
+["itemLevel"] = 690.0625,
+["classId"] = 7,
+},
+["Maweigavel"] = {
+["total"] = 1140511501,
+["itemLevel"] = 717.125,
+["classId"] = 1,
+},
+["Gguojing"] = {
+["total"] = 663619099,
+["itemLevel"] = 717.4375,
+["classId"] = 1,
+},
+["Dragonnorage-Tichondrius"] = {
+["total"] = 874364626,
+["itemLevel"] = 712.375,
+["classId"] = 11,
+},
+["Delicateluvu"] = {
+["total"] = 1125810432,
+["itemLevel"] = 716.6875,
+["classId"] = 9,
+},
+["Misteln"] = {
+["total"] = 1290338868,
+["itemLevel"] = 717.125,
+["classId"] = 3,
+},
+["Younggoon-Proudmoore"] = {
+["total"] = 1118368957,
+["itemLevel"] = 715.75,
+["classId"] = 1,
+},
+["Dwarfhp"] = {
+["total"] = 844709065,
+["itemLevel"] = 708.6875,
+["classId"] = 2,
+},
+["Yuzumochiuwu"] = {
+["total"] = 465501702,
+["itemLevel"] = 712.375,
+["classId"] = 12,
+},
+["Annisfia"] = {
+["total"] = 6758026,
+["itemLevel"] = 706.625,
+["classId"] = 5,
+},
+},
+["servertime"] = 1758074086,
+["HEALER"] = {
+["Nichijo"] = {
+["total"] = 618368765,
+["itemLevel"] = 688.3125,
+["classId"] = 7,
+},
+["Topyouoff"] = {
+["total"] = 721140098,
+["itemLevel"] = 704.0625,
+["classId"] = 5,
+},
+["Furennsp"] = {
+["total"] = 111510296,
+["itemLevel"] = 712.5625,
+["classId"] = 13,
+},
+},
+["date"] = "21:54 16/09/25",
 },
 },
 [3122] = {
 {
-["guild"] = "Squirrel Squad",
 ["time"] = 1755743447,
+["guild"] = "Squirrel Squad",
 ["elapsed"] = 312.7149999999965,
+["date"] = "22:30 20/08/25",
+["servertime"] = 1755743447,
+["HEALER"] = {
+["Milliontown"] = {
+["total"] = 1090867331,
+["itemLevel"] = 704,
+["classId"] = 2,
+},
+["Víkii"] = {
+["total"] = 928191685,
+["itemLevel"] = 701.375,
+["classId"] = 5,
+},
+["Mistonk"] = {
+["total"] = 1197479341,
+["itemLevel"] = 702.1875,
+["classId"] = 10,
+},
+["Rookiepris"] = {
+["total"] = 1175081809,
+["itemLevel"] = 706.75,
+["classId"] = 5,
+},
+},
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 2427292013,
@@ -7538,32 +8299,10 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["servertime"] = 1755743447,
-["HEALER"] = {
-["Milliontown"] = {
-["total"] = 1090867331,
-["itemLevel"] = 704,
-["classId"] = 2,
-},
-["Víkii"] = {
-["total"] = 928191685,
-["itemLevel"] = 701.375,
-["classId"] = 5,
-},
-["Mistonk"] = {
-["total"] = 1197479341,
-["itemLevel"] = 702.1875,
-["classId"] = 10,
-},
-["Rookiepris"] = {
-["total"] = 1175081809,
-["itemLevel"] = 706.75,
-["classId"] = 5,
-},
-},
-["date"] = "22:30 20/08/25",
 },
 {
+["date"] = "21:55 27/08/25",
+["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 2505557829,
@@ -7636,8 +8375,6 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["time"] = 1756346104,
-["date"] = "21:55 27/08/25",
 ["elapsed"] = 304.5020000000004,
 ["servertime"] = 1756346104,
 ["HEALER"] = {
@@ -7667,11 +8404,9 @@ DetailsDataStorage = {
 ["classId"] = 2,
 },
 },
-["guild"] = "Squirrel Squad",
+["time"] = 1756346104,
 },
 {
-["date"] = "21:31 03/09/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Painflare-Proudmoore"] = {
 ["total"] = 2267771848,
@@ -7759,6 +8494,8 @@ DetailsDataStorage = {
 ["classId"] = 11,
 },
 },
+["time"] = 1756949517,
+["date"] = "21:31 03/09/25",
 ["elapsed"] = 280.5659999999998,
 ["servertime"] = 1756949517,
 ["HEALER"] = {
@@ -7783,11 +8520,9 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1756949517,
+["guild"] = "Squirrel Squad",
 },
 {
-["date"] = "00:17 10/09/25",
-["guild"] = "Squirrel Squad",
 ["DAMAGER"] = {
 ["Softiam"] = {
 ["total"] = 2372009366,
@@ -7885,6 +8620,8 @@ DetailsDataStorage = {
 ["classId"] = 9,
 },
 },
+["time"] = 1757477855,
+["date"] = "00:17 10/09/25",
 ["elapsed"] = 274.5480000000025,
 ["servertime"] = 1757477855,
 ["HEALER"] = {
@@ -7904,7 +8641,148 @@ DetailsDataStorage = {
 ["classId"] = 5,
 },
 },
-["time"] = 1757477855,
+["guild"] = "Squirrel Squad",
+},
+{
+["guild"] = "Squirrel Squad",
+["time"] = 1758073284,
+["elapsed"] = 276.951,
+["DAMAGER"] = {
+["Softiam"] = {
+["total"] = 2422824183,
+["itemLevel"] = 713.875,
+["classId"] = 8,
+},
+["Miemie"] = {
+["total"] = 1158973766,
+["itemLevel"] = 716.9375,
+["classId"] = 10,
+},
+["Wangxiaofei"] = {
+["total"] = 1077094617,
+["itemLevel"] = 715.5625,
+["classId"] = 13,
+},
+["Owlgaze-Tichondrius"] = {
+["total"] = 2020510617,
+["itemLevel"] = 717.1875,
+["classId"] = 4,
+},
+["Goonrock"] = {
+["total"] = 2146842845,
+["itemLevel"] = 716.5,
+["classId"] = 8,
+},
+["Yuto"] = {
+["total"] = 2401897106,
+["itemLevel"] = 715.375,
+["classId"] = 11,
+},
+["Realeupope"] = {
+["total"] = 0,
+["itemLevel"] = 680.625,
+["classId"] = 5,
+},
+["Cptcookie-Proudmoore"] = {
+["total"] = 2257509997,
+["itemLevel"] = 717.375,
+["classId"] = 6,
+},
+["Ounildetiou"] = {
+["total"] = 1915313036,
+["itemLevel"] = 716.75,
+["classId"] = 7,
+},
+["Gingertea"] = {
+["total"] = 0,
+["itemLevel"] = 715.9375,
+["classId"] = 3,
+},
+["Mayoiuta"] = {
+["total"] = 2186822468,
+["itemLevel"] = 719.1875,
+["classId"] = 6,
+},
+["Lilithian"] = {
+["total"] = 2457688081,
+["itemLevel"] = 716,
+["classId"] = 9,
+},
+["Minamage"] = {
+["total"] = 2415451879,
+["itemLevel"] = 715.3125,
+["classId"] = 8,
+},
+["Solange"] = {
+["total"] = 1153111917,
+["itemLevel"] = 690.0625,
+["classId"] = 7,
+},
+["Maweigavel"] = {
+["total"] = 2143974435,
+["itemLevel"] = 717.125,
+["classId"] = 1,
+},
+["Gguojing"] = {
+["total"] = 972059293,
+["itemLevel"] = 717.4375,
+["classId"] = 1,
+},
+["Dragonnorage-Tichondrius"] = {
+["total"] = 1857356489,
+["itemLevel"] = 712.375,
+["classId"] = 11,
+},
+["Delicateluvu"] = {
+["total"] = 2114596458,
+["itemLevel"] = 716.6875,
+["classId"] = 9,
+},
+["Misteln"] = {
+["total"] = 2042491115,
+["itemLevel"] = 717.125,
+["classId"] = 3,
+},
+["Younggoon-Proudmoore"] = {
+["total"] = 2276208453,
+["itemLevel"] = 716.9375,
+["classId"] = 1,
+},
+["Dwarfhp"] = {
+["total"] = 1866236145,
+["itemLevel"] = 710.5625,
+["classId"] = 2,
+},
+["Yuzumochiuwu"] = {
+["total"] = 1286213674,
+["itemLevel"] = 712.375,
+["classId"] = 12,
+},
+["Zzacc"] = {
+["total"] = 2108082234,
+["itemLevel"] = 717.375,
+["classId"] = 5,
+},
+},
+["servertime"] = 1758073284,
+["HEALER"] = {
+["Nichijo"] = {
+["total"] = 898008020,
+["itemLevel"] = 687.9375,
+["classId"] = 7,
+},
+["Topyouoff"] = {
+["total"] = 1052477613,
+["itemLevel"] = 704.0625,
+["classId"] = 5,
+},
+["Linshiifuren"] = {
+["total"] = 1703164812,
+["itemLevel"] = 716.8125,
+["classId"] = 10,
+},
+},
+["date"] = "21:41 16/09/25",
 },
 },
 },
